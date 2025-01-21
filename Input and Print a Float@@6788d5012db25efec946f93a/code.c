@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    scanf("%d");
-    printf("You entered: %d");
+    scanf("%f");
+    printf("You entered: %f");
     return 0;
 }
