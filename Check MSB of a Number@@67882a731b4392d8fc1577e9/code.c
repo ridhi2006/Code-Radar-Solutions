@@ -2,7 +2,8 @@
 int main(){
     int num1;
     scanf("%d",&num1);
-    if(num1 | 0){
+    int numBits=sizeof(num1)*8;
+    if(num >> (numBits-1) & 1){
         printf("Set",num1);
     }
     else{
