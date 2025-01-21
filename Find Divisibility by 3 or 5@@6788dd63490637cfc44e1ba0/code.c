@@ -14,4 +14,5 @@ int main(){
     else{
         printf("Neither",num);
     }
+    return 0;
 }
