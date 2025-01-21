@@ -3,7 +3,7 @@ int main(){
     int num;
     scanf("%d",&num);
     if(num%3==0 && num%5==0){
-        printf("Divisible by both",num);
+        printf("Divisible by Both",num);
     }
     else if(num%3==0){
         printf("Divisible by 3",num);
