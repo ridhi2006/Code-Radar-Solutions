@@ -6,7 +6,7 @@ int main(){
         printf("True",num1);
     }
     else{
-        printf("False",num2)
+        printf("False",num2);
     }
     return 0;
 }
