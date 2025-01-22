@@ -6,7 +6,7 @@ int countWords(char string[]){
         if(string[i]==' '||string[i]=='\t'||string[i]=='\n'){
             inWord=0;
         }
-        else if(string[i]==0){
+        else if(inWord==0){
             inWord=1;
             count++;
         }
@@ -15,11 +15,11 @@ int countWords(char string[]){
 }
 int main(){
     char string[1000];
-    scanf("%d",&string);
+    scanf("%c",&string);
     fgets(string,sizeof(string),stdin);
     string[strcspn(string,"\n")]='\0';
-    countWords(string);
-    printf("%d\n",string);
+    int count = countWords(string);
+    printf("%d\n",count);
     return 0;
 
 }
