@@ -8,7 +8,7 @@ int lengthString(char string[]){
     return length;
 }
 int main(){
-    char string[5];
+    char string[50];
     fgets(string,sizeof(string),stdin);
     string[strcspn(string,"\n")]='\0';
     int length=lengthString(string);
