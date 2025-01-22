@@ -16,11 +16,12 @@ int concatenateString(char string1[],char string2[]){
 int main(){
     char string1[100];
     char string2[100];
-    fgets(string,sizeof(string),stdin);
-    string[strcspn(string,"\n")]='\0';
+    fgets(string1,sizeof(string1),stdin);
+    string1[strcspn(string1,"\n")]='\0';
+    fgets(string2,sizeof(string2),stdin);
+    string2[strcspn(string2,"\n")]='\0';
     concatenateString(string1,string2);
     printf("%s\n",string1);
-    printf("%s\n",string2);
     return 0;
 
 }
