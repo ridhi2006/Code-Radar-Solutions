@@ -18,10 +18,12 @@ int main(){
             case '*':
             scanf("%d%d",&a,&b);
             c=a*b;
+            printf("%d\n",c);
             break;
             case '/':
             scanf("%d%d",&a,&b);
             c=a/b;
+            printf("%d\n",c);
             break;
         }
         while(ch2=='y');
