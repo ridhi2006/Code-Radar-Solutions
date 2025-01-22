@@ -6,8 +6,8 @@ void concatenateStrings(char str1[],char str2[],char result[]){
         result[i]=str1[i];
         i++;
     }
-    while(str2[i]!='\0'){
-        result[i]=str2[i];
+    while(str2[j]!='\0'){
+        result[i]=str2[j];
         i++;
         j++;
     }
