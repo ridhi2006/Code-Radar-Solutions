@@ -4,7 +4,7 @@ void concatenateStrings(char str1[],char str2[],char result[]){
     int i=0,j=0;
     while(str1[i]!='\0'){
         result[i]=str1[i];
-        i++
+        i++;
     }
     while(str2[j]!='\0'){
         result[i]=str2[j];
