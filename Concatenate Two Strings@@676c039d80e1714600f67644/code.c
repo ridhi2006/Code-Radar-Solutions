@@ -11,7 +11,7 @@ int main(){
         i++;
     }
     int j=0;
-    while(str2[i]!='\0' && str2[i]!='\n'){
+    while(str2[i]!='\0' && str2[j]!='\n'){
         str1[i++]=str2[j++];
     }
     str1[i]='\0';
