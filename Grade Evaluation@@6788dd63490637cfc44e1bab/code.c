@@ -3,21 +3,21 @@ int main(){
     char grades;
     scanf("%c",&grades);
     if(grades="A"){
-        printf("Excellent");
+        printf("Excellent\n");
     }
     else if(grades="B"){
-        printf("Good");
+        printf("Good\n");
     }
     else if(grades="C"){
-        printf("Average");
+        printf("Average\n");
     }
     else if(grades="D"){
-        printf("Below Average");
+        printf("Below Average\n");
     }
     else if(grades="F"){
-        printf("Fail");
+        printf("Fail\n");
     }
     else{
-        printf("Invalid grade");
+        printf("Invalid grade\n");
     }
     return 0;}
