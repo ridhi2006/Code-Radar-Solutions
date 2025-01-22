@@ -25,10 +25,9 @@ int main(){
             c=a/b;
             printf("%d\n",c);
             break;
-        }
+        }}}
         while(ch2=='y');
         return 0;
 
-        }
     
 
