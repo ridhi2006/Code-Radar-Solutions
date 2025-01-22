@@ -11,12 +11,12 @@ int isPalindrome(char string[]){
 int main(){
     char string[100];
     fgets(string,strlen(string),stdin);
-    string[strcspn(string,"\n")='\0'];
+    strcspn(string,"\n")='\0'];
     if (isPalindrome(string)){
         printf("Yes\n");
     }
     else{
-        printf("No\n")
+        printf("No\n");
     }
     return 0;
 }
