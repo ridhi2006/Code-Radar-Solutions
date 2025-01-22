@@ -7,15 +7,17 @@ int lengthString(char string[]){
             continue;
         }
         length++;
-    } return length;
+    } 
+    return length;
 
 }
 int main(){
     char string[100];
-    scanf("%c",&string);
+    scanf("%s",&string);
     fgets(string,sizeof(string),stdin);
     string[strcspn(string,"\n")]='\0';
-    lengthString(string);
-    printf("\n",string);
+    int length=lengthString(string);
+    printf("%s\n",string);
+    printf("%d\n",length);
     return 0;
 }
