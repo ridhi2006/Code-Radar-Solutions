@@ -3,8 +3,8 @@
 int isPalindrome(char string[]){
     int length=strlen(string);
     for(int i=0;i<length/2;i++){
-        if (string[i] != string[length-i-1]){return 0;}
-        }else{
+        if (string[i] != string[length-i-1])
+        {return 0;}}
         return 1;
     }}
 
