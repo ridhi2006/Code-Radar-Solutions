@@ -2,7 +2,7 @@
 #include<string.h>
 void reverseString(char string[]){
     int start=0;
-    int end=strlen(string)-1;
+    int end = strlen(string)-1;
     while(start<end){
         char temp=string[start];
         string[start]=string[end];
