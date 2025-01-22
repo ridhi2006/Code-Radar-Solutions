@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int grades;
+    char grades;
     scanf("%d",&grades);
     if(grades=="A"){
         printf("Excellent");
