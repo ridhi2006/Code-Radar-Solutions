@@ -15,6 +15,7 @@ void reverseString(char string[]){
 int main(){
     char string[100];
     fgets(string,sizeof(string),stdin);
+    string[strcspn(string,"\n")]='\0';
     reverseString(string);
     printf("%s\n",string);
     return 0;
