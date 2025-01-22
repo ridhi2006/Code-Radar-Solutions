@@ -1,8 +1,9 @@
 #include <stdio.h>
 int main(){
     int grades;
+    scanf("%d",&grades);
     switch(grades){
-        case A:
+        case 'A':
         printf("Excellent\n");
         break;
         case 'B':
