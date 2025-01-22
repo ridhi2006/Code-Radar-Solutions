@@ -25,7 +25,7 @@ int main(){
     fgets(str2,sizeof(str2),stdin);
     for(int i=0;str2[i]!='\0';i++){
         if(str2[i]=='\n'){
-            str2[i]=='\0';
+            str2[i]='\0';
             break;
         }
     }
