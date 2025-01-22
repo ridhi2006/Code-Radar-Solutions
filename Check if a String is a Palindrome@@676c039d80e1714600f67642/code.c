@@ -10,8 +10,8 @@ int isPalindrome(char string[]){
 
 int main(){
     char string[100];
-    fgets(string,strlen(string),stdin);
-    strcspn(string,"\n")='\0'];
+    fgets(string,sizeof(string),stdin);
+    string[strcspn(string,"\n")]='\0';
     if (isPalindrome(string)){
         printf("Yes\n");
     }
