@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include<string.h>
 int main(){
-    char str1[100],char str2[100];
+    char str1[100], str2[100];
 
     fgets(string1,sizeof(string1),stdin);
     fgets(string2,sizeof(string2),stdin);
