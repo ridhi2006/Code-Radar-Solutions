@@ -30,6 +30,6 @@ int main(){
         }
     }
     concatenateStrings(str1,str2,result);
-    printf("%s\n",return);
+    printf("%s\n",result);
     return 0;
 }
