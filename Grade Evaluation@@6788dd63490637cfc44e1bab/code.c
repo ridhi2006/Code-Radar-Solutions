@@ -2,7 +2,7 @@
 int main(){
     int grades;
     switch(grades){
-        case 'A':
+        case A:
         printf("Excellent\n");
         break;
         case 'B':
