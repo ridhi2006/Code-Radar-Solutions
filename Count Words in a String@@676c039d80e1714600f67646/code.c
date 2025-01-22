@@ -14,7 +14,7 @@ int countWords(char string[]){
     return count;
 }
 int main(){
-    char string[100];
+    char string[1000];
     scanf("%d",&string);
     fgets(string,sizeof(string),stdin);
     string[strcspn(string,"\n")]='\0';
