@@ -1,23 +1,26 @@
 #include <stdio.h>
 int main(){
-    char grades;
-    scanf("%c",&grades);
-    if(grades="A"){
+    char grade;
+    scanf("%d",&grade);
+    switch(grade){
+        case 'A':
         printf("Excellent\n");
-    }
-    else if(grades="B"){
+        break;
+        case 'B':
         printf("Good\n");
-    }
-    else if(grades="C"){
+        break;
+        case 'C':
         printf("Average\n");
-    }
-    else if(grades="D"){
+        break;
+        case 'D':
         printf("Below Average\n");
-    }
-    else if(grades="F"){
+        break;
+        case 'F':
         printf("Fail\n");
+        break;
+        default:
+        printf("Invalid grade");}
+        return 0;
+
+
     }
-    else{
-        printf("Invalid grade");
-    }
-    return 0;}
