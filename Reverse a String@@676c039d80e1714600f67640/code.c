@@ -1,10 +1,15 @@
 #include <stdio.h>
+#include<string.h>
 int main(){
     char string[100];
-    scanf("%d",&string);
-    for(int i=0;i<len(string);i++){
-        char reverse=string[:-i];
-        printf("%d\n",reverse,string);
+    int start=0;
+    int end=strlen(string)-1;
+    while(start<end){
+        char temp=str[start];
+        str[start]=str[end];
+        str[end]=temp;
+        start++;
+        end--;
+
     }
-    return 0;
 }
