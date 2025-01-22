@@ -9,7 +9,7 @@ void rotateArray(int arr[],int n,int k){
         arr[i]=arr[i-k];
     }
     for(int i=0;i<k;i++){
-        arr[i]=temp[i]
+        arr[i]=temp[i];
     }
 }
 int main(){
