@@ -2,12 +2,9 @@
 #include<string.h>
 int lengthString(char string[]){
     int length=0;
-    for(int i=0;strlen(string)!='\0';i++){
-        if(string==' '|| string=='\n'|| string='\t'){
-            return 0;
-        }
-        else{
-            return 1;
+    for(int i=0;string[i]!='\0';i++){
+        if(string[i]==' '|| string[i]=='\n'|| string[i]='\t'){
+            continue;
         }
         length++;
     } return length;
