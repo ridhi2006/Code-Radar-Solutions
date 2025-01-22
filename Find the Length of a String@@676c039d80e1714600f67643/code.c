@@ -18,7 +18,7 @@ int main(){
     scanf("%c",&string);
     fgets(string,sizeof(string),stdin);
     string[strcspn(string,"\n")]='\0';
-    lengthString(string)
+    lengthString(string);
     printf("\n",string);
     return 0;
 }
