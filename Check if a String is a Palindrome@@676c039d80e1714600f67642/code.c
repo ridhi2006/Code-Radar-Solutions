@@ -5,7 +5,7 @@ int stringPalindrome(char string[]){
     while(a!=0){
         a%10==0;
         rev=rev*10+rem;
-        a/10=0;
+        a/10==0;
     }
     if(a==rev){
         printf("Yes",a);
