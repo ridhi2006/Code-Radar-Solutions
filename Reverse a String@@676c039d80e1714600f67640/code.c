@@ -4,9 +4,9 @@ void reverseString(char string[]){
     int start=0;
     int end=strlen(string)-1;
     while(start<end){
-        char temp=str[start];
-        str[start]=str[end];
-        str[end]=temp;
+        char temp=string[start];
+        string[start]=string[end];
+        string[end]=temp;
 
         start++;
         end--;
