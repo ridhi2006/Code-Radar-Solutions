@@ -9,7 +9,6 @@ int lengthString(char string[]){
 }
 int main(){
     char string[100];
-    scanf("%s",&string);
     fgets(string,sizeof(string),stdin);
     string[strcspn(string,"\n")]='\0';
     int length=lengthString(string);
