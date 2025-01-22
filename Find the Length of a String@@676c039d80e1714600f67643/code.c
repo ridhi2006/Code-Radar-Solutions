@@ -3,7 +3,7 @@
 int lengthString(char string[]){
     int length=0;
     for(int i=0;strlen(string)!='\0';i++){
-        if(string==' '||string=='\n'||string='\t'){
+        if(string==' '|| string=='\n'|| string='\t'){
             return 0;
         }
         else{
