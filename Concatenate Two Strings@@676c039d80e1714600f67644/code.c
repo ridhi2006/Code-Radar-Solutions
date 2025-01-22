@@ -23,7 +23,7 @@ int main(){
         }
     }
     fgets(str2,sizeof(str2),stdin);
-    for(int j=0;str2[j]!=0;i++){
+    for(int j=0;str2[j]!=0;j++){
         if(str2[j]=='\n'){
             str2[j]=='\0';
             break;
