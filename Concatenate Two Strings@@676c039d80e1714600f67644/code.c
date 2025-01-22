@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include<string.h>
 int concatenateString(char string1[],char string2[]){
-    int i=0;j=0;
+    int i=0;int j=0;
     while(string1!='\0'){
         i++;
     }
