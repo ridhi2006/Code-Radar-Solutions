@@ -14,7 +14,8 @@ bool areAnagrams(char string1[],char string2[]){
         if(count[i]!=0){
             return false;
         }
-    }return true;
+    }
+    return true;
 }
 int main(){
     char string1[100];
