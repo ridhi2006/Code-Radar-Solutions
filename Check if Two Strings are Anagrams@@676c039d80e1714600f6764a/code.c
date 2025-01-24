@@ -19,7 +19,6 @@ bool areAnagrams(char string1[],char string2[]){
 int main(){
     char string1[100];
     char string2[100];
-    scanf("%s%s",&string1,&string2);
     fgets(string1,sizeof(string1),stdin);
     fgets(string2,sizeof(string2),stdin);
     string1[strcspn(string1,"\n")]='\0';
