@@ -11,21 +11,9 @@ void reverse(int arr[],int start,int end){
 void rotateArray(int arr[],int n,int k){
     if(n<=0)return;
     k=k%n;
-    for(int i=0;j=n-1;i<j;i++;j--){
-        int temp=arr[i];
-        arr[i]=arr[j];
-        arr[j]=temp;
-    }
-    for(int i=0;j=k-1;i<j;i++;j--){
-        int temp=arr[i];
-        arr[i]=arr[j];
-        arr[j]=temp;
-    }
-    for(int i=k;j=n-1;i<j;i++;j--){
-        int temp=arr[i];
-        arr[i]=arr[j];
-        arr[j]=temp;
-    }
+    reverse(arr,0,n-1);
+    reverse(arr,0,k-1);
+    reverse(arr,k,n-1);
 }
 int main(){
     int n,k;
