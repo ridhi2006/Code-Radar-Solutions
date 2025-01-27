@@ -5,9 +5,9 @@ int main(){
     for(i=1;i<=rows;i++){
         printf(" ");
         for(j=1;j<=i;j++){
-            printf("%d",j);
+            printf("%d ",j);
         }
-        printf("\n");
+        printf(" \n");
         printf(" ");
     }
     return 0;
