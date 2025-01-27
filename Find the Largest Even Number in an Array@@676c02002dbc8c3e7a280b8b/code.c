@@ -4,7 +4,7 @@ int main(){
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
-        scanf("%d",&arr[n]);
+        scanf("%d",&arr[i]);
     }
     int even_largest=-1;
     for(int i=0;i<n;i++){
@@ -14,8 +14,8 @@ int main(){
             }
         }
     }
-    if(even_largest=-1){
-        printf("-1",even_largest);
+    if(even_largest==-1){
+        printf("-1");
     }
     else{
         printf("%d",even_largest);
