@@ -1,15 +1,20 @@
 #include <stdio.h>
 void rotateArray(int arr[],int n,int k){
     k=k%n;
-    int temp[k];
-    for(int i=0;i<k;i++){
-        temp[i]=arr[n-k+i];
+    for(int i=0;j=n-1;i<j;i++;j++){
+        int temp=arr[i];
+        arr[i]=arr[j];
+        arr[j]=temp;
     }
-    for(int i=n-1;i>=k;i--){
-        arr[i]=arr[i-k];
+    for(int i=0;j=k-1;i<j;i++;j--){
+        int temp=arr[i];
+        arr[i]=arr[j];
+        arr[j]=temp;
     }
-    for(int i=0;i<k;i++){
-        arr[i]=temp[i];
+    for(int i=k;j=n-1;i<j;i++;j--){
+        int temp=arr[i];
+        arr[i]=arr[j];
+        arr[j]=temp;
     }
 }
 int main(){
@@ -24,7 +29,6 @@ int main(){
     for(int i=0;i<n;i++){
         printf("%d",arr[i]);
     }
-    printf("\n");
     return 0;
 }
 
