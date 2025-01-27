@@ -10,9 +10,9 @@ int main(){
             else{
                 printf("B ");
             }
-
+            printf("\n")
         }
-        printf("\n");
+        
     }
     return 0;
 }
