@@ -2,16 +2,11 @@
 int main(){
     int n,i,j;
     scanf("%d",&n);
-    for(i=1;i<=n;i++){
-        for(j=1-n;j>=i;j--){
-            if((i+j)%2==0){
-                printf("A ");
-            }
-            else{
-                printf("B ");
+    for(i=n;i>=1;i--){
+        for(j=1;j<=i;j++){
+                printf("%c",'A'+j-1);
             }
             printf("\n");
-        }
         
     }
     return 0;
