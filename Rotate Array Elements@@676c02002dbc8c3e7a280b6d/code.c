@@ -17,7 +17,10 @@ void rotateArray(int arr[],int n,int k){
 }
 int main(){
     int n,k;
-    scanf("%d",&n) //input size of array//
+    scanf("%d",&n);
+    if(n<=0){
+        return 1;
+    }
     int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
@@ -27,6 +30,7 @@ int main(){
     for(int i=0;i<n;i++){
         printf("%d",arr[i]);
     }
+    printf("\n");
     return 0;
 }
 
