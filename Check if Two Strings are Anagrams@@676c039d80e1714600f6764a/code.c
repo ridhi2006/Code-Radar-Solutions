@@ -22,8 +22,8 @@ int main(){
     char string2[100];
     fgets(string1,sizeof(string1),stdin);
     fgets(string2,sizeof(string2),stdin);
-    string1[strcspn(string1,"\n")]='\0';
-    string2[strcspn(string2,"\n")]='\0';
+    string1[strcspn(string1,"\n")]=0;
+    string2[strcspn(string2,"\n")]=0;
     if(areAnagrams(string1,string2)){
         printf("Yes\n");
     }
