@@ -13,7 +13,8 @@ int main(){
     char string[100];
     fgets(string,sizeof(string),stdin);
     string[strcspn(string,"\n")]='\0';
-    int times=countCharacter()
+    scanf("%c",&ch);
+    int times=countCharacter(string,ch)
     printf("%d\n",times);
     return 0;
 }
