@@ -5,7 +5,7 @@ bool areAnagrams(char string1[],char string2[]){
     if(strlen(string1)!=strlen(string2)){
         return false;
     }
-    int count[256]={0};//ASCII VALUE (0-255)//
+    int count=0
     for(int i=0;string1!='\0';i++){
         count[(int)string1[i]]++;
         count[(int)string2[i]]--;
