@@ -11,6 +11,7 @@ int countCharacter(char string[],char ch){
 }
 int main(){
     char string[100];
+    char ch;
     fgets(string,sizeof(string),stdin);
     string[strcspn(string,"\n")]='\0';
     scanf("%c",&ch);
