@@ -2,7 +2,7 @@
 #include<string.h>
 void removeConsonants(char string[]){
     char result[strlen(string)+1];
-    for(int i=0;string[i]!='\0',i++){
+    for(int i=0,string[i]!='\0',i++){
         if(!(string[i]=='a'||string[i]=='e'||string[i]=='i'||string[i]=='o'||string[i]=='u'||string[i]=='A'||string[i]=='E'||string[i]=='I'||string[i]=='O',string[i]=='U')){
             continue;
         }
