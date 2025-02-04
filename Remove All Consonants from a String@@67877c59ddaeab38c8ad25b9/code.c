@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<string.h>
 void removeConsonants(char string[]){
     char result[strlen(string)+1];
     for(int i=0;string[i]!='\0',i++){
