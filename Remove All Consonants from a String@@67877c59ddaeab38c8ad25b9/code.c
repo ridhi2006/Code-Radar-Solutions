@@ -15,7 +15,7 @@ int main(){
     char string[100];
     fgets(string,sizeof(string),string);
     string[strcspn(string,"\n")]='\0';
-    removeConsonants();
+    removeConsonants(string);
     printf("%s\n",string);
     return 0;
 }
