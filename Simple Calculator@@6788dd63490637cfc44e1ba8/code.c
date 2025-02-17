@@ -5,22 +5,22 @@ int main(){
     do{
         scanf("%d",&ch1);
         switch(ch1){
-            case '+':
+            case +:
             scanf("%d%d",&a,&b);
             c=a+b;
             printf("%d\n",c);
             break;
-            case '-':
+            case -:
             scanf("%d%d",&a,&b);
             c=a-b;
             printf("%d\n",c);
             break;
-            case '*':
+            case *:
             scanf("%d%d",&a,&b);
             c=a*b;
             printf("%d\n",c);
             break;
-            case '/':
+            case /:
             scanf("%d%d",&a,&b);
             c=a/b;
             printf("%d\n",c);
