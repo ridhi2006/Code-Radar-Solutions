@@ -5,17 +5,20 @@ int main(){
     char ch1;
     scanf("%c",&ch1)
         switch(ch1){
-            case +:
+            case '+':
             printf("%d\n",a+b);
             break;
-            case -:
+            case '-':
             printf("%d\n",a-b);
             break;
-            case *:
+            case '*'
             printf("%d\n",a*b);
             break;
-            case /:
+            case '/':
             printf("%d\n",a/b);
+            break;
+            default:
+            printf("Invalid operator");
             break;
         return 0;}
 
