@@ -15,7 +15,11 @@ int main(){
             printf("%d\n",a*b);
             break;
             case '/':
-            printf("%d\n",a/b);
+            if(b!=0){
+            printf("%d\n",a/b);}
+            else{
+                printf("Division by zero is not allowed");
+            }
             break;
             default:
             printf("Invalid operator");
