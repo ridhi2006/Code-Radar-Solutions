@@ -17,7 +17,7 @@ int main(){
             case /:
             printf("%d\n",a/b);
             break;
-        return 0;
+        return 0;}
 
     
 
