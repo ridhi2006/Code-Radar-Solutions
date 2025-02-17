@@ -1,14 +1,19 @@
 #include<stdio.h>
 int main(){
-    boolean flag= Prime;
+    int flag=1;
     int n;
     scanf("%d",&n);
     for(int i=2;i<n;i++){
         if(n%i==0){
-            flag=Not Prime;
+            flag=0;
         }
     }
-    printf("%d",&flag);
+    if(flag==1){
+        printf("Prime");
+    }
+    else{
+        printf("Not Prime");
+    }
     return 0;
 
 }
