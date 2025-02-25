@@ -15,7 +15,7 @@ int main(){
             break;
         }
     }
-    if(index==i){
+    if(index=i){
         printf("%d",index);
     }
     else{
