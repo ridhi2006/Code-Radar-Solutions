@@ -23,9 +23,9 @@ void printArray(int arr[],int n){
 
 int main(){
     int arr[n];
+    int n = sizeof(arr)/sizeof(arr[0]);
     int sortedArray[n];
 
-    int n = sizeof(arr)/sizeof(arr[0]);
     bubbleSort(arr,sortedArray,n);
     printArray(sortedArray,n);
 
