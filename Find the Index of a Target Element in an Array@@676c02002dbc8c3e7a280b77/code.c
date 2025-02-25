@@ -9,7 +9,7 @@ int main(){
     int target;
     scanf("%d",&target);
     int index;
-    for(int i=0;i<n;i+++){
+    for(int i=0;i<n;i++){
         if(arr[i]==target){
             index=i;
             break;
