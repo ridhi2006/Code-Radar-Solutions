@@ -13,7 +13,7 @@ int main(){
         }
     }
     for(int i=0;i<n;i++){
-    printf("%d\n",secondLargest);}
+    printf("%d\n",arr[secondLargest]);}
     return 0;
 
 
