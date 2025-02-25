@@ -6,17 +6,14 @@ int isPrime(int n){
             flag=0;
         }
     }
-    return 1;
+    return flag=1;
 }
 int main(){
-    int n;
-    scanf("%d",&n);
-    int flag=isPrime(n);
-    if(flag==1){
-        printf("%d",1);
-    }
-    else{
-        printf("%d",0);
+    int t,n;
+    scanf("%d",&t);
+    while(t--){
+        scanf("%d",&n);
+        printf("%d\n",isPrime(n));
     }
     return 0;
 }
