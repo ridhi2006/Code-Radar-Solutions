@@ -11,6 +11,9 @@ int main(){
         if(arr[i]>arr[secondLargest+1]){
             secondLargest=i;
         }
+        else{
+            printf("-1");
+        }
     }
     printf("%d\n",secondLargest);
     return 0;
