@@ -1,15 +1,15 @@
 #include<stdio.h>
 int main(){
     int arr[n];
-    int n=sizeof(arr)/sizeof(arr[0]);
+    int n;
     scanf("%d",&n);
     for(int i=0;i<n;i++){
-        scanf("%d",&arr[]);
+        scanf("%d",&arr[i]);
     }
     int max=0;
     for(int i=0;i<n;i++){
         if(arr[i]>max){
-            printf("%d",arr[i]);
+            printf("%d\n",arr[i]);
         }
     }
     int min=0;
