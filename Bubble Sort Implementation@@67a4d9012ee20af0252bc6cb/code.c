@@ -22,9 +22,9 @@ void printArray(int arr[],int n){
 }
 
 int main(){
-    int arr[];
-    int sortedArray[];
-    
+    int arr[n];
+    int sortedArray[n];
+
     int n=sizeof(arr)/sizeof(arr[0]);
     bubbleSort(arr,sortedArray,n);
     printArray(sortedArray,n);
