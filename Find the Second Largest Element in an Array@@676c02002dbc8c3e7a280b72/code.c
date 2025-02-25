@@ -9,7 +9,7 @@ int main(){
     int secondLargest=0;
     for(int i=0;i<n;i++){
         if(arr[i]>arr[secondLargest+1]){
-            secondLargest=i;
+            secondLargest==i;
         }
     }
     printf("%d\n",secondLargest);
