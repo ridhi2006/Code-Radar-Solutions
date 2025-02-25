@@ -13,10 +13,10 @@ int main(){
     scanf("%d",&n);
     int flag;
     if(flag==1){
-        printf(1);
+        printf("%d",1);
     }
     else{
-        printf(0);
+        printf("%d",0);
     }
     return 0;
 }
