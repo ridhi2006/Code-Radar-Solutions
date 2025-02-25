@@ -8,19 +8,15 @@ int main(){
     }
     int target;
     scanf("%d",&target);
-    int index;
+    int index=-1;
     for(int i=0;i<n;i++){
         if(arr[i]==target){
             index=i;
             break;
         }
     }
-    if(index=i){
-        printf("%d",index);
-    }
-    else{
-        printf("-1");
-    }
+    printf("%d",index);
+    
     return 0;
 
 
