@@ -12,8 +12,7 @@ int main(){
             secondLargest=i;
         }
     }
-    for(int i=0;i<n;i++){
-    printf("%d\n",arr[secondLargest]);}
+    printf("%d\n",secondLargest);
     return 0;
 
 
