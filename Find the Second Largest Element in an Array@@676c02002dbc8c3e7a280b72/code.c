@@ -12,7 +12,7 @@ int main(){
             secondLargest=i;
         }
         else{
-            printf("-1");
+            -1;
         }
     }
     printf("%d\n",secondLargest);
