@@ -6,7 +6,7 @@ int isPrime(int n){
             flag=0;
         }
     }
-    return flag=1;
+    return flag;
 }
 int main(){
     int t,n;
