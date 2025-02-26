@@ -8,12 +8,3 @@ int isPrime(int n){
     }
     return flag;
 }
-int main(){
-    int t,n;
-    scanf("%d",&t);
-    while(t--){
-        scanf("%d",&n);
-        printf("%d\n",isPrime(n));
-    }
-    return 0;
-}
