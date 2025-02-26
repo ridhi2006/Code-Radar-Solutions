@@ -8,7 +8,7 @@ int main(){
     }
     int revArr[n];
     for(int i=0;i<n;i++){
-    int revArr[i]=arr[n-1-i];
+    revArr[i]=arr[n-1-i];
     }
     if(revArr[i]==arr[i]){
         printf("Yes");
