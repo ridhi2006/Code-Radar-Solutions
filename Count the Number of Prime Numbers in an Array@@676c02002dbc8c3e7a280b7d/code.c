@@ -6,9 +6,9 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);}
     int count=0;
-    int flag=0;
+    int isPrime=0;
     for(int i=0;i<n;i++){
-        if(flag==1){
+        if(arr[]){
             count++;
             break
 
