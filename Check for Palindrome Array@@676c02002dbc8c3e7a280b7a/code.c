@@ -6,6 +6,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+    int revArr[n];
     for(int i=0;i<n;i++){
     int revArr[i]=arr[n-1-i];
     }
