@@ -21,18 +21,3 @@ void printArray(int arr[],int n){
     printf("/n");
 }
 
-int main(){
-    
-    int n;
-    scanf("%d",&n);
-    int arr[n];
-    int sortedArray[n];
-    for(int i=0;i<n;i++){
-        scanf("%d",&arr[i]);
-    }
-
-    bubbleSort(arr,sortedArray,n);
-    printArray(sortedArray,n);
-
-    return 0;
-}
