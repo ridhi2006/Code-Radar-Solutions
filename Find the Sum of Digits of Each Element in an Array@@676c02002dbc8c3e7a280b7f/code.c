@@ -8,6 +8,7 @@ int main(){
     }
     int arr[5];
     int sum=0;
+    scanf("%d",&sum);
     int rem;
     for(int i=0;i<n;i++){
     while(arr[i]!=0){
