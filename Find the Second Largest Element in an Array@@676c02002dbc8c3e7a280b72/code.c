@@ -22,6 +22,6 @@ int main(){
         }
     }
     
-        printf("%d", secondMax);
+    printf("%d", secondMax);
     return 0;
 }
