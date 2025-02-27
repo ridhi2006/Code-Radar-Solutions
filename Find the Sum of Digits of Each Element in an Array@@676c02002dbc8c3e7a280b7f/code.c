@@ -6,7 +6,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int arr[5];
+    int newArr[n];
     int sum=0;
     scanf("%d",&sum);
     int rem;
