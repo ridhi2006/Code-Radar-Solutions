@@ -4,7 +4,7 @@ int main(){
     scanf("%d",&n);
     int runningSum[n];
     for(int i=0;i<n;i++){
-        scanf("%d",&arr[i]);
+        scanf("%d",&runningSum[i]);
     }
     int nums[]=new int[n];
     runningSum[0]=nums[0];
