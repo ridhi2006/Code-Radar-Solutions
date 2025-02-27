@@ -20,7 +20,7 @@ int main(){
         printf("YES");
     }
     else{
-        printf("N0");
+        printf("NO");
     }
     return 0;
 
