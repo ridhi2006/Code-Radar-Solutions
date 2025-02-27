@@ -6,7 +6,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&runningSum[i]);
     }
-    int nums[]=new int[n];
+    int nums[n];
     runningSum[0]=nums[0];
     for(int i=0;i<n;i++){
     runningSum[i]=runningSum[i-1]+nums[i];
