@@ -7,11 +7,14 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int newArr[n];
-    int sum=0;
+   
     scanf("%d",&sum);
+
+    for(int i=0;i<n;i++){
     int rem;
     int num=arr[i];
-    for(int i=0;i<n;i++){
+    int sum=0;
+    scanf("%d",&sum);
     while(num!=0){
         rem=num%10;
         sum=sum+rem;
