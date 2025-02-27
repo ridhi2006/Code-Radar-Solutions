@@ -10,10 +10,6 @@ int main(){
         printf("-1");
         return 0;
     }
-    if(arr[i]=arr[i+1]){
-        printf("-1");
-        return 0;
-    }
     int max=arr[0];
     for(int i=1;i<n;i++){
         if(arr[i]>max){
