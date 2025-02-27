@@ -4,13 +4,14 @@ int main(){
     scanf("%d",&n);
     int runningSum[n];
     for(int i=0;i<n;i++){
-        scanf("%d",&runningSum[i]);
+        scanf("%d",&nums[i]);
     }
-    int nums[n];
+    int runningSum[n];
     runningSum[0]=nums[0];
-    for(int i=0;i<n;i++){
+    for(int i=1;i<n;i++){
     runningSum[i]=runningSum[i-1]+nums[i];
     }
-    printf("%d ",runningSum);
+    for(int i=0;i<n;i++){
+    printf("%d ",runningSum);}
     return 0;
 }
