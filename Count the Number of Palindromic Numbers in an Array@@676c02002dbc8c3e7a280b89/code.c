@@ -6,6 +6,10 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+    if(num<0){
+        count=0;
+        return count;
+    }
     int count=0;
     for(int i=0;i<n;i++){
     int num=arr[i];
