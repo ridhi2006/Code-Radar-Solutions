@@ -21,7 +21,7 @@ int main(){
             secondMax=arr[i];
         }
     }
-    if (secondMax == arr[0]) {
+    if (secondMax == arr[i+2]) {
         printf("-1");
     } else {
         printf("%d", secondMax);
