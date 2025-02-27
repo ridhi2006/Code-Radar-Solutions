@@ -20,4 +20,6 @@ int main(){
     if(x==r){
         count++;
     }
-}return count;}
+}
+printf("%d",count);
+return 0;}
