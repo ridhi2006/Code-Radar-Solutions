@@ -6,12 +6,13 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int minIndex=arr[0];
+    int minIndex=0;
     int count=0;
-    for(int i=0;i<n;i++){
-        if(i<minIndex){
-            count++;
+    for(int i=1;i<n;i++){
+        if(arr[i]<arr[minIndex]){
+           minIndex=i;
         }
-    }
-    return arr[i];
+    }printf("%d ",minIndex);
+    return 0;
+    
 }
