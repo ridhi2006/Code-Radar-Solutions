@@ -13,5 +13,5 @@ int main(){
             count++;
         }
     }
-    return count;
+    return arr[i];
 }
