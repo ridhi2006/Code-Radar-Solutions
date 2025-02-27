@@ -9,6 +9,7 @@ int main(){
     int count=0;
     for(int i=0;i<n;i++){
     int num=arr[i];
+    int original=num;
     int rem;
     int r=0;
     while(num!=0){
@@ -17,9 +18,9 @@ int main(){
         num=num/10;
     }
     int x=num;
-    if(x==r){
+    if(original==r){
         count++;
     }
 }
-printf("%d",count);
+printf("%d\n",count);
 return 0;}
