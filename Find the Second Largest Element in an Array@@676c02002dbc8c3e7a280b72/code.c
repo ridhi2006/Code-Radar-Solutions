@@ -10,12 +10,12 @@ int main(){
         printf("-1");
         return 0;
     }
-    int max=0;
+    int max=arr[0];
     for(int i=0;i<n;i++){
         if(arr[i]>max){
         max=arr[i];}
     }
-    int secondMax=0;
+    int secondMax=arr[0];
     for(int i=0;i<n;i++){
         if(arr[i]>secondMax && arr[i]!=max){
             secondMax=arr[i];
