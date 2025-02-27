@@ -11,20 +11,22 @@ int main(){
         return 0;
     }
     int max=arr[0];
-    for(int i=0;i<n;i++){
+    for(int i=1;i<n;i++){
         if(arr[i]>max){
         max=arr[i];}
     }
     int secondMax=arr[0];
-    for(int i=0;i<n;i++){
+    for(int i=1;i<n;i++){
         if(arr[i]>secondMax && arr[i]!=max){
             secondMax=arr[i];
         }
     }
+    for(int i=1;i<n;i++)
+    {
     if(arr[i]==secondMax){
         printf("-1")
     }
     else{
-    printf("%d",secondMax);}
+    printf("%d",secondMax);}}
     return 0;
 }
