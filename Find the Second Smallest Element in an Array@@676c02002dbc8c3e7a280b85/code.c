@@ -13,13 +13,14 @@ int main(){
     int min=arr[0];
     for(int i=1;i<n;i++){
         if(arr[i]<min){
-            min=i;
+            min=arr[i];
         }
+
     }
     int secondMin=arr[0];
     for(int i=1;i<n;i++){
         if(arr[i]<secondMin && arr[i]!=min){
-            secondMin=i;
+            secondMin=arr[i];
         }
     }
     printf("%d ",secondMin);
