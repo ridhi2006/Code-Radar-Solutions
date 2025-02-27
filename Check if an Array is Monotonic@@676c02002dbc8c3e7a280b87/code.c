@@ -8,7 +8,7 @@ int main(){
     }
     int increasing=1;
     int decreasing=1;
-    for(int i=0;i<n-1;i++){
+    for(int i=0;i<n-1;i++){ //n-1 because we are checking for the adjacent pairs
         if(arr[i]>arr[i+1]){
             increasing=0;
         }
