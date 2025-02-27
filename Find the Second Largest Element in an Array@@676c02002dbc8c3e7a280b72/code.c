@@ -10,6 +10,7 @@ int main(){
         printf("-1");
         return 0;
     }
+    int secondMax=arr[0];
     for(int i=1;i<n;i++){
         if(arr[i]<0){
            secondMax=arr[i+1];
