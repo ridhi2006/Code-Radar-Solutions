@@ -20,7 +20,7 @@ int main(){
             secondMax=-1;
         }
     }
-    printf(secondMax);
+    printf("%d",secondMax);
     return 0;
 
 
