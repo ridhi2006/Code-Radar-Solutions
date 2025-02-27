@@ -15,7 +15,7 @@ int main(){
         rem=n%10;
         sum=sum+rem;
         n=n/10; 
-    }
+    }}
     for(int i=0;i<n;i++){
         printf("%d",sum);
     }
