@@ -14,6 +14,9 @@ int main(){
     int num=arr[i];
     int sum=0;
     scanf("%d",&sum);
+    if(num<0){
+        num=-num;
+    }
     while(num!=0){
         rem=num%10;
         sum=sum+rem;
