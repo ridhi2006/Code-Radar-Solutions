@@ -24,7 +24,7 @@ int main(){
     for(int i=1;i<n;i++)
     {
     if(arr[i]==secondMax){
-        printf("-1")
+        printf("-1");
     }
     else{
     printf("%d",secondMax);}}
