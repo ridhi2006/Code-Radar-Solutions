@@ -11,6 +11,6 @@ int main(){
     for(int i=0;i<n;i++){
     runningSum[i]=runningSum[i-1]+nums[i];
     }
-    printf("%d ",runningSum[i]);
+    printf("%d ",runningSum);
     return 0;
 }
