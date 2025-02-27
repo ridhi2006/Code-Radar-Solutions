@@ -6,10 +6,14 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int maxProduct=0;
-    for(int i=0;i<n;i++){
+    if(n<2){
+        printf("0");
+        return 0;
+    }
+    int maxProduct=arr[0]*arr[1];
+    for(int i=1;i<n-1;i++){
         if(arr[i]*arr[i+1]>maxProduct){
-            maxProduct=i*(i+1);
+            maxProduct=arr[i]*arr[i+1];
         }
 
     }
