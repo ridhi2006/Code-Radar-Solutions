@@ -8,8 +8,7 @@ int main(){
     }
     int newArr[n];
    
-    scanf("%d",&sum);
-
+    
     for(int i=0;i<n;i++){
     int rem;
     int num=arr[i];
