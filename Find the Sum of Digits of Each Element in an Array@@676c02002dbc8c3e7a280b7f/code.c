@@ -12,9 +12,9 @@ int main(){
     int rem;
     for(int i=0;i<n;i++){
     while(arr[i]!=0){
-        rem=n%10;
+        rem=arr[i]%10;
         sum=sum+rem;
-        n=n/10; 
+        arr[i]=arr[i]/10; 
     }}
     for(int i=0;i<n;i++){
         printf("%d",sum);
