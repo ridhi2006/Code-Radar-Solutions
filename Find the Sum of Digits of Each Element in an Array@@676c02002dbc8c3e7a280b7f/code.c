@@ -22,7 +22,7 @@ int main(){
     newArr[i]=sum;
     }
     for(int i=0;i<n;i++){
-        printf("%d",newArr[i]);
+        printf("%d ",newArr[i]);
     }
     return 0;
 }
