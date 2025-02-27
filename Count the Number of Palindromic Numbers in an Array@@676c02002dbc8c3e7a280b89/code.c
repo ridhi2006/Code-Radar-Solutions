@@ -6,16 +6,16 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    if(num<0){
-        count=0;
-        return count;
-    }
     int count=0;
     for(int i=0;i<n;i++){
     int num=arr[i];
     int original=num;
     int rem;
     int r=0;
+    if(num<0){
+        count=0;
+        return count;
+    }
     while(num!=0){
         rem=num%10;
         r=r*10+rem;
