@@ -22,6 +22,7 @@ int main(){
         }
     }
     
+    
     printf("%d",secondMax);
     return 0;
 }
