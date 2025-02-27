@@ -17,10 +17,10 @@ int main(){
         }
     }
     if(increasing || decreasing){
-        printf("Yes");
+        printf("YES");
     }
     else{
-        printf("No");
+        printf("N0");
     }
     return 0;
 
