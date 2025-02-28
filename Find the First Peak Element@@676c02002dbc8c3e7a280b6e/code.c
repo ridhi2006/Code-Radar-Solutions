@@ -14,7 +14,5 @@ int main(){
     printf("%d\n",max);}
     else{
         printf("-1");
-    }}
-    return 0;
-
-}
+    }
+    return 0;}
