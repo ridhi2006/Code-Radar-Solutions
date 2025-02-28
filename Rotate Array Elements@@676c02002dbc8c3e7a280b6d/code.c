@@ -9,7 +9,7 @@ int main(){
     int k;
     scanf("%d",&k);
     k=k%n;
-    int temp[k];
+    int temp[n];
     for(int i=0;i<k;i++){
         temp[k]=arr[n-k+i];
     }
