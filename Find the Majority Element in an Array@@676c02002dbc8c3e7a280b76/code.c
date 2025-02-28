@@ -14,7 +14,7 @@ int main(){
         }
     }
     if(count<n/2){
-        printf("%d",count);
+        printf("%d",arr[i]);
         return 0;
     }
 }
