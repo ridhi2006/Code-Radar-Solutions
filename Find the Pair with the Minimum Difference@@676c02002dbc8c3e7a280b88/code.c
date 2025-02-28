@@ -10,7 +10,7 @@ int main(){
         printf("-1");
         return 0;
     }
-    int *newArr = (int *)malloc(n * sizeof(int));
+    int *newArr = (int *)calloc(n, sizeof(int));
     int minDiff=-1;
     for(int i=0;i<n;i++){
         if(arr[i]<arr[i+1]){
