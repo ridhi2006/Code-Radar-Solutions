@@ -6,6 +6,12 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+    if(n<0){
+        if(arr[i]<even_largest){
+            even_largest=arr[i];
+            found=1;
+        }
+    }
     int even_largest=0;
     int found=0;
     for(int i=0;i<n;i++){
