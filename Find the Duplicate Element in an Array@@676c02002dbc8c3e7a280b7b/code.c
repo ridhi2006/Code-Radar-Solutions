@@ -6,8 +6,8 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    for(int i=0;i<n;i++){
-        for(int j=i+1;j<n;j++){
+    for(int i=0;i<n;i++){ //outer loop:selects each element
+        for(int j=i+1;j<n;j++){ //inner loop: compares with next elements
         
         if(arr[i]==arr[j]){
             printf("%d\n",arr[i]);
