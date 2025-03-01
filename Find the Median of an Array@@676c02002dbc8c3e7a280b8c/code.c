@@ -8,7 +8,10 @@ int main(){
     }
     for(int i=0;i<n/2;i++){
         if(n%2==1){
-            median=arr[n/2]
+            int median=arr[n/2];
         }
+        
     }
+    printf("%d",median);
+    return 0;
 }
