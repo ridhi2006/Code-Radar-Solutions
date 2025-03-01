@@ -8,8 +8,8 @@ int main(){
     }
     for(int i=0;i<n;i++){
         if(arr[i]==arr[i+1]){
-            printf("%d",arr[i]);
-            break;
+            printf("%d\n",arr[i]);
+            return 0;;
         }
     }
     return 0;
