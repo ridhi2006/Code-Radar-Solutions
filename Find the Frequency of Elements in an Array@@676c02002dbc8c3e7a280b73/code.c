@@ -1,24 +1,30 @@
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+
+int main() {
     int n;
-    scanf("%d",&n);
+    scanf("%d", &n);
+    
     int arr[n];
-    for(int i=0;i<n;i++){
-        scanf("%d",&arr[i]);
+    
+    // Input array elements
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
     }
-    for(int i=0;i<n;i++){
-       
-        if(arr[i]==-1)
-        continue;
-        
-    }
-     int count=1;
-    for(int i=0;i<n;i++){
-        if(arr[i]==arr[i+1]){
-            count++;
-            arr[i+1]=-1;
+
+    // Counting frequencies
+    for (int i = 0; i < n; i++) {
+        if (arr[i] == -1) // Skip already counted elements
+            continue;
+
+        int count = 1; // Reset count for each element
+        for (int j = i + 1; j < n; j++) {
+            if (arr[i] == arr[j]) {
+                count++;
+                arr[j] = -1; // Mark as counted
+            }
         }
+        printf("%d  %d \n", arr[i], count);
     }
-    printf("%d %d\n",arr[i],count);
+
     return 0;
 }
