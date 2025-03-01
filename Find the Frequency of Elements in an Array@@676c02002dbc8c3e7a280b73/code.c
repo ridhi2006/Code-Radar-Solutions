@@ -23,7 +23,7 @@ int main() {
                 arr[j] = -1; // Mark as counted
             }
         }
-        printf("%d  %d \n", arr[i], count);
+        printf("%d %d \n", arr[i], count);
     }
 
     return 0;
