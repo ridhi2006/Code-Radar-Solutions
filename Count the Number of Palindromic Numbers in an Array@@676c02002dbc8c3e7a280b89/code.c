@@ -1,33 +1,39 @@
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+
+int main() {
     int n;
-    scanf("%d",&n);
+    scanf("%d", &n);
+    
     int arr[n];
-    for(int i=0;i<n;i++){
-        scanf("%d",&arr[i]);
+
+    // Input array elements
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
     }
-    int num=arr[i];
-    if(num<0){
-    num=-num;}
-    int count=0;
-    for(int i=0;i<n;i++){
-    int num=arr[i];
-    int original=num;
-    int rem;
-    int r=0;
-    if(num<0){
-        count=0;
-        return count;
+
+    int count = 0;
+
+    // Checking for palindrome numbers
+    for (int i = 0; i < n; i++) {
+        int num = arr[i];
+
+        if (num < 0) {  // Ignore negative numbers
+            continue;
+        }
+
+        int original = num, reversed = 0, rem;
+
+        while (num != 0) {
+            rem = num % 10;
+            reversed = reversed * 10 + rem;
+            num /= 10;
+        }
+
+        if (original == reversed) {
+            count++;
+        }
     }
-    while(num!=0){
-        rem=num%10;
-        r=r*10+rem;
-        num=num/10;
-    }
-    int x=num;
-    if(original==r){
-        count++;
-    }
+
+    printf("%d\n", count);  // Print total count of palindrome numbers
+    return 0;
 }
-printf("%d\n",count);
-return 0;}
