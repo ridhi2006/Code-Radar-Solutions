@@ -8,7 +8,7 @@ int main(){
     }
     int t;
     scanf("%d",&t);
-    for(int i=0;i<n;i++){
+    for(int i=0;i<n-1;i++){
         if(arr[i]+arr[i+1]==t){
             printf("%d %d\n",arr[i],arr[i+1]);
         }
