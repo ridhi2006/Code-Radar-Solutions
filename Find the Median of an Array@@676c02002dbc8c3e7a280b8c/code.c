@@ -23,14 +23,14 @@ int main() {
     }
 
     // Finding the median
-    double median;
+    int median;
     if (n % 2 == 1) {
         median = arr[n / 2];  // Middle element for odd n
     } else {
-        median = (arr[n / 2 - 1] + arr[n / 2]) / 2.0;  // Average of two middle elements for even n
+        median = (arr[n / 2 - 1] + arr[n / 2]) / 2;  // Average of two middle elements for even n
     }
 
-    printf("Median: %.1f\n", median);
+    printf("%d", median);
     
     return 0;
 }
