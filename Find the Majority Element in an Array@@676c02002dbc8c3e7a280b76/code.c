@@ -1,25 +1,41 @@
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+
+int main() {
     int n;
-    scanf("%d",&n);
-    int arr[n];
-    for(int i=0;i<n;i++){
-        scanf("%d",&arr[i]);
+    scanf("%d", &n);
+
+    int arr[n], freq[n];
+
+    // Read input and initialize frequency array
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
+        freq[i] = -1; // Mark as uncounted
     }
-   
-    for(int i=0;i<n;i++){
-         int count=0;
-        for(int j=0;j<n;j++){
-            if(arr[j]==arr[i]){
-            count++;}
+
+    // Count occurrences of each element
+    for (int i = 0; i < n; i++) {
+        if (freq[i] != -1)  // Skip already counted elements
+            continue;
+
+        int count = 1;
+        for (int j = i + 1; j < n; j++) {
+            if (arr[i] == arr[j]) {
+                count++;
+                freq[j] = 0;  // Mark duplicate as counted
+            }
+        }
+        freq[i] = count;  // Store count
+    }
+
+    // Find the first element appearing less than n/2 times
+    for (int i = 0; i < n; i++) {
+        if (freq[i] != 0 && freq[i] < n / 2) {
+            printf("%d", arr[i]); // Print the first valid element
+            return 0; // Stop execution after the first valid element
         }
     }
-    for(int i=0;i<n;i++){
-    if(count<n/2){
-        printf("%d",arr[i]);
-        return 0;
-        
-    }else{
-   printf("-1\n");
-   return 0;}}
+
+    // If no element meets the condition, print -1
+    printf("-1");
+    return 0;
 }
