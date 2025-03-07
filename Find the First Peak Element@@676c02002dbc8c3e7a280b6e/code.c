@@ -10,8 +10,8 @@ int main(){
     if(arr[i]>max){
         max=arr[i];
         break;
-    }
-    printf("%d\n",max);
+    
+    printf("%d\n",max);}
     else{
         printf("-1");
     }}
