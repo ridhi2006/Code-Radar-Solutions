@@ -17,7 +17,7 @@ int main() {
             }
         }
     if(count>n/2){
-        return arr[i];
+        printf("%d",arr[i]);
     }}
-    return -1;
+    printf("-1");
 }
