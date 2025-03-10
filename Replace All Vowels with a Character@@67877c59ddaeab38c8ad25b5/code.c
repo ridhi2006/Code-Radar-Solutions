@@ -5,7 +5,7 @@ int main(){
     char a;
     scanf("%c",&a);
     for(int i=0;string[i]!='\0';i++){
-        if(string[i]=='a'||'e'||'i'||'o'||'u'){
+        if(string[i]=='a'||string[i]=='e'||string[i]=='i'||string[i]=='o'||string[i]=='u'){
             string[i]=a;
         }
     }
