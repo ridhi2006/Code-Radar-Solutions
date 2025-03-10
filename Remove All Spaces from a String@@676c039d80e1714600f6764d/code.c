@@ -5,7 +5,7 @@ int main(){
     char string2[100];
     int j=0;
     for(int i=0;string[i]!='\0';i++){
-        if(string[i]!='\t' || string[i]!='\n'|| string[i]!=' '){
+        if(string[i]!='\t' && string[i]!='\n'&& string[i]!=' '){
             string2[j]=string[i];
             j++;
         }
