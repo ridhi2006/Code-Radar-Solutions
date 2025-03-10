@@ -5,7 +5,7 @@ int main(){
     int isBinary=1;
     fgets(string,sizeof(string),stdin);
     for(int i=0;string[i]!='\0' && string[i]!='\n';i++){
-        if(string[i]!='0' || string[i]!='1'){
+        if(string[i]!='0' &&  string[i]!='1'){
            isBinary=0;
            break;
         }
