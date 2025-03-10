@@ -8,7 +8,7 @@ int main(){
     scanf("%c",&b);
     for(int i=0;string[i]!='\0';i++){
         if(string[i]==a){
-            string[i]==b;
+            string[i]=b;
         }
     }
     printf("%s",string);
