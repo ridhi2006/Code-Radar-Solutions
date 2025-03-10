@@ -20,9 +20,9 @@ int main() {
         
         // Print character or '-'
         if (isDuplicate) {
-            printf("-");
-        } else {
             printf("%c", string[i]);
+        } else {
+            printf("-");
         }
     }
 
