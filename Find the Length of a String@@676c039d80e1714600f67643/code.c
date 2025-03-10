@@ -1,18 +1,10 @@
-#include <stdio.h>
-#include<string.h>
-int lengthString(char string[]){
-    int length=0;
-    for(int i=0;string[i]!='\0';i++){
-        length++;
-    } 
-    return length;
-}
+#include<stdio.h>
 int main(){
-    char string[50];
-    fgets(string,sizeof(string),stdin);
-    string[strcspn(string,"\n")]='\0';
-    int length=lengthString(string);
-    printf("%s\n",string);
+    char string[5];
+    scanf("%s",&string);
+    for(int i=0;string[i]!='\0',i++){
+        length++;
+    }
     printf("%d\n",length);
     return 0;
 }
