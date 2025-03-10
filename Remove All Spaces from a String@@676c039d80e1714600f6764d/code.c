@@ -11,6 +11,6 @@ int main(){
         }
     }
     string2[j]='\0';
-    printf("%s",string2);
+    printf("%s\n",string2);
     return 0;
 }
