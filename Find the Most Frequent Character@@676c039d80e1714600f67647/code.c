@@ -8,7 +8,7 @@ int main(){
         continue;
     }
     int count=0;
-    for(int j=0;string[j]!='\0';i++){
+    for(int j=0;string[j]!='\0';j++){
         if(string[j]==string[i]){
             count++;
         }
