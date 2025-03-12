@@ -9,5 +9,5 @@ int main(){
         }
     }
     printf("%d",maxFrequent);
-    return 0;
+    return maxFrequent;
 }
