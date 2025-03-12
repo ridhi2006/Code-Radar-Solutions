@@ -11,10 +11,10 @@ int main(){
         if(string[j]==string[i]){
             count++;
         }
-    }}
+    }
     if(count>maxFrequency){
         mostFrequentCharacter=string[i];
-    }
+    }}
     return mostFrequentCharacter
    
 }
