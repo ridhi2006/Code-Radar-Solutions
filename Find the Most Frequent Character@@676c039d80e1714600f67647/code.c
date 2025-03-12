@@ -16,6 +16,6 @@ int main(){
     if(count>maxFrequency){
         mostFrequentCharacter=string[i];
     }}
-    return mostFrequentCharacter;
-   
+    printf("%c",mostFrequentCharacter);
+   return 0;
 }
