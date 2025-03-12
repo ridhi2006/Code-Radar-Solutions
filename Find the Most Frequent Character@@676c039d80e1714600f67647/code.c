@@ -15,6 +15,6 @@ int main(){
     if(count>maxFrequency){
         mostFrequentCharacter=string[i];
     }}
-    return mostFrequentCharacter
+    return mostFrequentCharacter;
    
 }
