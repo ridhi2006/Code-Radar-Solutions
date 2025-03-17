@@ -7,6 +7,11 @@ int main(){
         scanf("%d ",&arr[i]);
     }
     for(int i=0;i<n;i++){
+        int temp=arr[i];
+        arr[i]=arr[arr[i]-1];
+        arr[arr[i]-1]=temp;
+    }
+    for(int i=0;i<n;i++){
         if(arr[i]!=i+1){
             printf("%d\n",i+1);
             return 0;
