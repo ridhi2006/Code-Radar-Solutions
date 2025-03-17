@@ -5,14 +5,18 @@ int main(){
     int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);}
+        
     int count=0;
-    int isPrime=0;
+    int isPrime=1;
     for(int i=0;i<n;i++){
-        if(arr[]){
+        if(n%arr[i]!=0){
+            isPrime=1;
             count++;
-            break
+            break;
 
         }
     }
+    printf("%d",count);
+    return 0;
 
 }
