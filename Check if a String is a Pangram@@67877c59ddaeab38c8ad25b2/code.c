@@ -5,7 +5,7 @@ int main(){
     fgets(string,sizeof(string),stdin);
     int hasAlphabet=0;
     for(int i=0;i<strlen(string);i++){
-        if(string[i]>='a' && string[i]<='z' || string[i]>='A' && string[i]<='Z'){
+        if((string[i]>='a' && string[i]<='z') || (string[i]>='A' && string[i]<='Z')){
             hasAlphabet=1;
             break;
         }
