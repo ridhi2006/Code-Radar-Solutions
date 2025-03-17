@@ -8,7 +8,7 @@ int main(){
         
     int count=0;
     int isPrime=1;
-    for(int arr[i]=2;i<arr[n];i++){
+    for(int i=2;i<arr[n];i++){
         if(n%arr[i]!=0){
             isPrime=1;
             count++;
