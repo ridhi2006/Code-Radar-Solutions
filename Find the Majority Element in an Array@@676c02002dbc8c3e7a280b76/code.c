@@ -15,8 +15,10 @@ int main(){
         }
         
         }
-    }
     if(count>n/2){
     printf("%d",majorityelement);}
+    else{
+        printf("-1");
+    }
     return 0;
 }
