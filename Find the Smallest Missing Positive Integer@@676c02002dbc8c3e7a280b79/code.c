@@ -6,8 +6,12 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d ",&arr[i]);
     }
-    int smallestPositive=0;
+    int smallestPositive=arr[0];
     for(int i=0;i<n;i++){
-        if(arr[i])
+        if(arr[i]!=i+1){
+            printf("%d\n",i+1);
+        }
     }
+    printf("%d\n",i+1);
+    return 0;
 }
