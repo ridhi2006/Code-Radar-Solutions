@@ -2,17 +2,10 @@
 int main(){
     int n;
     scanf("%d",&n);
-    int arr[n];
+    char arr[];
     for(int i=0;i<n;i++){
-        scanf("%d",&arr[i]);
+        scanf("%c",&arr[n]);
     }
-    for(int i=0;i<n;i++){
-        if((i==0 || arr[i]>arr[i-1]) && (i==n-1 || arr[i]>arr[i+1])){
-            printf("%d",arr[i]);
-            break;
-        }
-    }
-
-    return 0;
+    
 
 }
