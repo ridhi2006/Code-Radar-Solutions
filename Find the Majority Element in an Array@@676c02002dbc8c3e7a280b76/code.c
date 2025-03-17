@@ -7,15 +7,16 @@ int main(){
         scanf("%d\n",&arr[i]);
     }
     int majorityelement=arr[0];
+    int count=0;
     for(int i=0;i<n;i++){
-        if(arr[n-1]==arr[i] ){
+        if(arr[n-1]==arr[i]){
             majorityelement=arr[i];
-            break;
+            count++;
         }
-        else{
-            majorityelement=-1;
+        
         }
     }
-    printf("%d",majorityelement);
+    if(count>n/2){
+    printf("%d",majorityelement);}
     return 0;
 }
