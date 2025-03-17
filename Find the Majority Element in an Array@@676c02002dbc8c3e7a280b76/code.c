@@ -8,7 +8,7 @@ int main(){
     }
     int majorityelement=arr[0];
     for(int i=0;i<n;i++){
-        if(arr[i]==arr[i+1] && arr[i]==arr[i-1]){
+        if(arr[n-1]==arr[i] ){
             majorityelement=arr[i];
             break;
         }
