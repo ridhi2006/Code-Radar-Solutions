@@ -9,7 +9,7 @@ int main(){
     int majorityelement=arr[0];
     int count=0;
     for(int i=0;i<n;i++){
-        if(arr[i]==arr[n-1] || arr[i]==arr[i+1]){
+        if(arr[i]==arr[n-1]){
             majorityelement=arr[i];
             count++;
         }
