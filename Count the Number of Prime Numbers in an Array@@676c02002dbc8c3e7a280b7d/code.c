@@ -7,7 +7,7 @@ int main(){
         scanf("%d",&arr[i]);}
         
     int count=0;
-    int isPrime=1;
+    int isPrime=0;
     for(int i=2;i<arr[n];i++){
         if(n%arr[i]!=0){
             isPrime=1;
