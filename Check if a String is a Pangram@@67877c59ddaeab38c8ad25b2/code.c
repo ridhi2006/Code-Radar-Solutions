@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<string.h>
 int main(){
     char string[1000];
     for(int i=0;i<string.length();i++)
