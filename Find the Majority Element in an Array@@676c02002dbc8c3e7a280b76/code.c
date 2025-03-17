@@ -13,7 +13,9 @@ int main(){
             break;
         }
         else{
-            majorityelement=-1
+            majorityelement=-1;
         }
     }
+    printf("%d",majorityelement);
+    return 0;
 }
