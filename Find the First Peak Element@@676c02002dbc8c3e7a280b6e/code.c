@@ -21,7 +21,8 @@ int main(){
             plement=-1;
         }
     }
-    return plement;
+    printf("%d",plement);
+    return 0;
     
 
 }
