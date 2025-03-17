@@ -4,7 +4,7 @@ int main(){
     char string[1000];
     fgets(string,sizeof(string),stdin);
     int hasAlphabet=0;
-    for(int i=0;i<strlen(string);i++){
+    for(int i=0;string[i]!='\n';i++){
         if((string[i]>='a' && string[i]<='z') || (string[i]>='A' && string[i]<='Z')){
             hasAlphabet=1;
             break;
