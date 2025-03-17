@@ -13,7 +13,7 @@ int main(){
             plement=arr[i];
             break;
         }
-        else if(arr[i]<max){
+        else if(arr[i]<=max){
             max=arr[i];
             plement=max;
         }
