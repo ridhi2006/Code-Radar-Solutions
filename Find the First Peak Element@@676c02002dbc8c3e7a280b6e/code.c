@@ -21,7 +21,7 @@ int main(){
             plement=-1;
         }
     }
-    return 0;
+    return plement;
     
 
 }
