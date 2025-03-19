@@ -10,7 +10,7 @@ int main(){
     int mindiff=INT_MAX;
     int num1=0;
     int num2=0;
-    for(int i=0;i<n;i++){
+    for(int i=0;i<n-1;i++){
         int diff=arr[i+1]-arr[i];
         if(diff<mindiff){
             mindiff=diff;
