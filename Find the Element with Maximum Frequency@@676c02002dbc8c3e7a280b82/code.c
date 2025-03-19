@@ -12,6 +12,7 @@ int main(){
             mostfreq=arr[i];
         }
     }
-    return mostfreq;
+    printf("%d",mostfreq);
+    return 0;
     
 }
