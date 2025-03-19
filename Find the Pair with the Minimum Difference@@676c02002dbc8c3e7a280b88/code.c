@@ -7,14 +7,17 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+    int mindiff=0;
+    int num1=0;
+    int num2=0;
     for(int i=0;i<n;i++){
-        arr[n]=arr[i]<arr[n-1];
-    }
-    for(int i=0;i<n;i++){
-        if(arr[i+1]-arr[i]<mindiff){
-            mindiff=arr[i],arr[i+1];
+        int diff=arr[i+1]-arr[i];
+        if(diff<mindiff){
+            mindiff=diff;
+            num1=arr[i];
+            num2=arr[i+1];
         }
     }
-    printf("%d %d\n",arr[i],arr[i+1]);
+    printf("%d %d",num1,num2);
     return 0;
 }
