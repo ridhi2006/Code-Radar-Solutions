@@ -13,6 +13,6 @@ int main(){
             max=arr[i];
         }
     }
-    return 0;
+    return max;
     
 }
