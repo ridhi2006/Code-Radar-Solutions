@@ -15,7 +15,7 @@ int main(){
             count++;
         }
     }
-        if(count<maxcount){
+        if(count>maxcount){
             maxcount=count;
             mostfreq=arr[i];
         }
