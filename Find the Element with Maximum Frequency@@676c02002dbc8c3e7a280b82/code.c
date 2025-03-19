@@ -14,13 +14,12 @@ int main(){
         if(arr[i]==arr[j]){
             count++;
         }
-    }}
-    for(int i=0;i<n;i++){
+    }
         if(count>maxcount){
             maxcount=count;
             mostfreq=arr[i];
-        }
-    }
+        }}
+    
     printf("%d",mostfreq);
     return 0;
     
