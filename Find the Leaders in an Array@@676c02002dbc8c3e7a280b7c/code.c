@@ -6,8 +6,8 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    for(int i=0;i<n;i++){
-    if(i == n-1 || arr[i]>=arr[i+1]){
+    for(int i=n-2;i>=0;i--){
+    if(arr[i]>arr[n-1]){
         printf("%d ",arr[i]);
     }
     }
