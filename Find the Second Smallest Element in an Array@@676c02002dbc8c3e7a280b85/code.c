@@ -23,10 +23,7 @@ int main(){
             secondMin=arr[i];
         }
     }
-    if(secondMin==arr[i]){
-        printf("-1");
-    }
-    else{
-    printf("%d ",secondMin);}
+    
+    printf("%d ",secondMin);
     return 0;
 }
