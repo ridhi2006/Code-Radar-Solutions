@@ -10,11 +10,6 @@ int main(){
         printf("-1");
         return 0;
     }
-    for(int i=1;i<n-1;i++){
-        if(arr[i]==arr[i+1]){
-            printf("-1");
-        }
-    }
     int min=arr[0];
     for(int i=1;i<n;i++){
         if(arr[i]<min){
@@ -28,6 +23,10 @@ int main(){
             secondMin=arr[i];
         }
     }
-    printf("%d ",secondMin);
+    if(secondMin==arr[i]){
+        printf("-1");
+    }
+    else{
+    printf("%d ",secondMin);}
     return 0;
 }
