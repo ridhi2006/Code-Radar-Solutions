@@ -6,13 +6,13 @@ int main(){
     scanf("%c",&ch1)
         switch(ch1){
             case '+':
-            printf("%d\n",a+b);
+            printf("%d",a+b);
             break;
             case '-':
-            printf("%d\n",a-b);
+            printf("%d",a-b);
             break;
             case '*'
-            printf("%d\n",a*b);
+            printf("%d",a*b);
             break;
             case '/':
             if(b!=0){
