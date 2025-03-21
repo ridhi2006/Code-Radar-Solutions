@@ -5,12 +5,13 @@ int main(){
     if(n<=0){
         printf("Invalid array");
         return 1;
-    }   int arr[n];
+    }   
+    int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
     int temp[n],j=0;
-    int zerocount=0;
+    int zeroCount=0;
     for(int i=0;i<n;i++){
         if(arr[i]!=0){
             temp[j++]=arr[i];
@@ -23,7 +24,7 @@ int main(){
         temp[j++]=0;
     }
     for(int i=0;i<n;i++){
-        printf("%d",temp[n]);
+        printf("%d ",temp[i]);
     }
     return 0;
 }
