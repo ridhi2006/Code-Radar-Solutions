@@ -1,26 +1,30 @@
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+
+int main() {
     int n;
-    scanf("%d",&n);
+    scanf("%d", &n);
     int arr[n];
-    for(int i=0;i<n;i++){
-        scanf("%d",&arr[i]);
+
+    // Input array
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
     }
-    for(int i=1;i<n-1;i++){
-        if(arr[i]!=arr[i+1]){
-            printf("-1");
+
+    // Frequency count using an array (assuming numbers are small)
+    int max_count = 0, mostRepeating;
+    for (int i = 0; i < n; i++) {
+        int count = 1;
+        for (int j = i + 1; j < n; j++) {
+            if (arr[i] == arr[j]) {
+                count++;
+            }
+        }
+        if (count > max_count) {
+            max_count = count;
+            mostRepeating = arr[i];
         }
     }
-    int mostRepeating=arr[0];
-    int count=1;
-    for(int i=1;i<n;i++){
-        if(arr[i]<mostRepeating){
-           count++;
-        }
-        else{
-            count--;
-        }
-    }printf("%d ",mostRepeating);
+
+    printf("%d\n", mostRepeating);
     return 0;
-    
 }
