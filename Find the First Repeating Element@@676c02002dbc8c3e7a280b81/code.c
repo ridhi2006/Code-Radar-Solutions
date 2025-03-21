@@ -18,9 +18,6 @@ int main() {
             if (arr[i] == arr[j]) {
                 count++;
             }
-            else{
-                printf("-1");
-            }
         }
         if (count > max_count) {
             max_count = count;
