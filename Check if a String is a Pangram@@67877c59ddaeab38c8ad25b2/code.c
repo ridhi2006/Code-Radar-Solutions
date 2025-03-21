@@ -3,7 +3,7 @@
 int main(){
     char string[100];
     fgets(string,sizeof(string),stdin);
-    string[strcspn(string,"\n")]= "\0";
+    string[strcspn(string,"\n")]= '\0';
     int hasAlphabet=0;
     for(int i=0;string[i]!='\n' && string[i]!='\0';i++){
         if((string[i]>='a' && string[i]<='z') || (string[i]>='A' && string[i]<='Z')){
