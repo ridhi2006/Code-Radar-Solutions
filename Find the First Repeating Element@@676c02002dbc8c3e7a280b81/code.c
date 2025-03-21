@@ -9,6 +9,12 @@ int main() {
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
+    for(int i=0;i<n;i++){
+        if(arr[i]!=arr[i+1]){
+            printf("-1");
+            return 0;
+        }
+    }
 
     // Frequency count using an array (assuming numbers are small)
     int max_count = 0, mostRepeating;
