@@ -17,10 +17,10 @@ int main(){
             temp[j++]=arr[i];
         }
         else{
-            zerocount++;
+            zeroCount++;
         }
     }
-    while(zerocount--){
+    while(zeroCount--){
         temp[j++]=0;
     }
     for(int i=0;i<n;i++){
