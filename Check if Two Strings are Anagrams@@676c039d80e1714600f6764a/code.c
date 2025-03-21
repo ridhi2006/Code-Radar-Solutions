@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<string.h>
 int main(){
     char s1[100],s2[100],freq[256]={0};
     fgets(s1,100,stdin);
