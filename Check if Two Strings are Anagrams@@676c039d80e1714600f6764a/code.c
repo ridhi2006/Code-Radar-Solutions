@@ -1,20 +1,16 @@
-#include <stdio.h>
-#include <string.h>
-
-int main() {
-    char string[100], string2[100];
-
-    fgets(string, sizeof(string), stdin);
-    string[strcspn(string, "\n")] = '\0';  // Remove newline
-
-    fgets(string2, sizeof(string2), stdin);
-    string2[strcspn(string2, "\n")] = '\0';  // Remove newline
-
-    if (strcmp(string, string2) == 0) {  
-        printf("Yes\n");
-    } else {
-        printf("No\n");
+#include<stdio.h>
+int main(){
+    char str1[100];
+    fgets(string,sizeof(str1),stdin);
+    char str2[100];
+    fgets(str2,sizeof(str2),stdin);
+    for(int i=0;i<sizeof(str2) && i<sizeof(str2);i++){
+        if(str1[i]==str2[n-1]){
+            printf("Yes");
+        }
+        else{
+            printf("No");
+        }
     }
-
     return 0;
 }
