@@ -7,6 +7,6 @@ int fibonacciSeries(int n){
         printf("1");
     }
     else{
-        printf(fibonacciSeries(n-1)+fibonacciSeries(n-2));
+        return fibonacciSeries(n-1)+fibonacciSeries(n-2);
     }
-    return 0;
+    return fibonacciSeries;}
