@@ -1,5 +1,5 @@
 #include<stdio.h>
-int fibonacciSeries(int n){
+void fibonacciSeries(int n){
     if(n==0){
         return 0;
     }
@@ -9,5 +9,5 @@ int fibonacciSeries(int n){
     else{
         return fibonacciSeries(n-1)+fibonacciSeries(n-2);
     }
-    return fibonacciSeries(i);
+    return ;
     }
