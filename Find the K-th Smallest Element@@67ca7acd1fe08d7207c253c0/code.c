@@ -1,5 +1,5 @@
 #include<stdio.h>
-int findKthElement(int n,int k){
+int kthSamllest(int arr[n],int n,int k){
     if(k=2){
         printf("k");
     }
