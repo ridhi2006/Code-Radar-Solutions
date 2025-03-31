@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<limits.h>
 void swap(int *a,int *b){
     int temp=*a;
     *a=*b;
