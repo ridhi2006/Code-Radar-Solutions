@@ -1,15 +1,23 @@
 #include<stdio.h>
-int kthSmallest(int n,int arr[],int k){
-    int smallest=arr[0];
-    int valid;
-    for(int i=1;i<n-1;i++){
-        if(arr[i]<arr[i+1]){
-            smallest=arr[i];
-            valid=1;
-        }
-        if(!valid){
-            printf("-1");
+void swap(int *a,int *b){
+    int temp= *a;
+    *a=*b;
+    *b=temp;
+}
+void sortArray(int arr[],int n){
+    for(int i=0;i<n-1;i++){
+        for(int j=0;j<n-1-i;j++){
+            if(arr[j]>arr[j+1]){
+                swap(&arr[j],&arr[j+1]);
+            }
         }
     }
-    return smallest;
+}
+int kthSmallestElement(int n,int arr[],int k){
+    if(k>n||k<1){
+        printf("-1\n");
+        return -1;
+    }
+    sortArray(arr,n);
+    return arr[k-1];
 }
