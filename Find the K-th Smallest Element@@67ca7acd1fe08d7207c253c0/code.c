@@ -1,5 +1,5 @@
 #include<stdio.h>
-int kthSamllest(int arr[],int n,int k){
+int kthSmallest(int arr[],int n,int k){
     if(k=2){
         printf("k");
     }
