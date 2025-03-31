@@ -1,9 +1,10 @@
 #include<stdio.h>
 int findKthElement(int n,int k){
     if(k=2){
-        printf("k")
+        printf("k");
     }
     else{
         printf("-1");
     }
+    return
 }
