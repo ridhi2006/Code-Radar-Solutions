@@ -6,5 +6,5 @@ int kthSmallest(int arr[],int n,int k){
     else{
         printf("-1");
     }
-    return
+    return k;
 }
