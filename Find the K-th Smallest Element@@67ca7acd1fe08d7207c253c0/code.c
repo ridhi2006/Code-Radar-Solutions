@@ -15,7 +15,7 @@ void sortArray(int arr[],int n){
 }
 int kthSmallest(int arr[],int n,int k){
     if(k>n||k<1){
-        printf("-1\n");
+        return -1;
     }
     sortArray(arr,n);
     return arr[k-1];
