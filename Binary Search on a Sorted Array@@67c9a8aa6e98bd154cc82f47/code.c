@@ -13,7 +13,7 @@ void bubbleSort(int arr[],int n){
         }
     }
 }
-int binarySearch(int n,int arr[],int t){
+void binarySearch(int n,int arr[],int t){
     int found;
     int index=-1;
     bubbleSort(int arr[],int n);
