@@ -9,17 +9,12 @@ void printPrimesInRange(int a,int b){
     for(int j=2;j<i;j++){
         if(i%j==0){
             flag=0;
+            break;
         }
-    }}
-
-}
-int main(){
-    int a;
-    scanf("%d",&a);
-    int b;
-    scanf("%d",&b);
+    }
     if(flag==1){
         printf("%d ",i);
     }
-    return 0;
+}
+
 }
