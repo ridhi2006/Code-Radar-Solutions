@@ -13,22 +13,17 @@ void bubbleSort(int arr[],int n){
         }
     }
 }
-void binarySearch(int n,int arr[],int t){
-    int found;
-    int index=-1;
-    bubbleSort(int arr[],int n);
-    for(int i=0;i<n;i++){
-        if(arr[i]==t){
-            index=i;
-            found=1;
+int binarySearch(int arr[], int n, int target) {
+    int left = 0, right = n - 1;
+    while (left <= right) {
+        int mid = left + (right - left) / 2;
+        if (arr[mid] == target) {
+            return mid;  // Target found at index mid
+        } else if (arr[mid] < target) {
+            left = mid + 1;  // Search right half
+        } else {
+            right = mid - 1;  // Search left half
         }
-        if(found==1){
-            printf("%d ",i);
-        }
-        if(!found){
-            printf("-1");
-        }
-
     }
-    
+    return -1;  // Target not found
 }
