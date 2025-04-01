@@ -2,7 +2,7 @@
 int main(){
     int n,i,j;
     scanf("%d",&n);
-    for(i=n;i>=65;i--){
+    for(i=65+rows;i>65;i--){
         for(j=65;j<=i;j++){
                 printf("%c ",j);
             }
