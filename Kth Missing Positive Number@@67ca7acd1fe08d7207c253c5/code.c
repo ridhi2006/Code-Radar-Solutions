@@ -5,7 +5,7 @@ int findKthMissing(int arr[],int n,int k){
 
     while(left<=right){
         int mid=left+(right-left)/2;
-        int missing=arr[mid]+arr[mid+1];
+        int missing=arr[mid]-(mid+1);
 
         if(missing<k){
             left=mid+1;
