@@ -10,11 +10,11 @@ int main(){
     scanf("%d",&n);
 
     struct Student students[n];
+    float totalMarks=0;
     for(int i=0;i<n;i++){
         scanf("%d %s %f\n",&students[i].rollNumber,&students[i].name,&students[i].marks);
         totalMarks+=students[i].marks;
     }
-    float totalMarks;
 
     float average=totalMarks/n;
 
