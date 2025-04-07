@@ -16,7 +16,7 @@ int main(){
     }
 
     float thresholdMarks;
-    scanf("%.1f\n",&thresholdMarks);
+    scanf("%f",&thresholdMarks);
 
     int count=0;
 
