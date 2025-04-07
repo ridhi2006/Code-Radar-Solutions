@@ -19,7 +19,7 @@ int main(){
     int topperIndex=0;
 
     for(int i=1;i<n;i++){
-        if(students[i].marks<students[topperIndex].marks){
+        if(students[i].marks>students[topperIndex].marks){
             topperIndex=i;
         }
     }
