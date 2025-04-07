@@ -19,7 +19,7 @@ int main(){
     scanf("%f\n",&threshold);
 
     for(int i=0;i<n;i++){
-        if(threshold>=book[i].price){
+        if(threshold<book[i].price){
             threshold=book[i].price;
         }
     }
