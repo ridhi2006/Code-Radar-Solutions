@@ -24,7 +24,7 @@ int main(){
         }
     }
     for(int i=0;i<n;i++){
-        printf("Books above price %d:",threshold);
+        printf("Books above price :%d\n",threshold);
         printf("Title: %s, Author: %s, Price: %d\n",book[i].title,book[i].author,book[i].price);
     }
     return 0;
