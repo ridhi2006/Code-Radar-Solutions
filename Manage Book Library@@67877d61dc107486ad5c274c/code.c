@@ -23,6 +23,7 @@ int main(){
         if(threshold<book[i].price){
             threshold=book[i].price;
             found=1;
+            break;
         }
     }
     for(int i=0;i<n;i++){
