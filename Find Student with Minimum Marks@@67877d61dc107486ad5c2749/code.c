@@ -22,7 +22,7 @@ int main(){
         }
     }
     for(int i=1;i<n;i++){
-    printf("Student with Minimum Marks: Roll Number: %d, Name: %s, Marks: %f\n",students[i].rollNumber,students[i].name,students[i].marks);
+    printf("Student with Minimum Marks: Roll Number: %d, Name: %s, Marks: %.2f\n",students[i].rollNumber,students[i].name,students[i].marks);
     }
     return 0;
 }
