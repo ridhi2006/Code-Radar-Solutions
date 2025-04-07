@@ -18,9 +18,8 @@ int main(){
     }
     
     float average=totalMarks/n;
-    for(int i=0;i<n;i++){
+    
         printf("Average Marks: %.2f\n",average);
         
-    }
     return 0;
 }
