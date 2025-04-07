@@ -26,9 +26,9 @@ int main(){
             found=1;
             break;
         }
-        else{
-            printf("Student not found");
-        }
+    }
+    if(!found){
+        printf("Student not found\n");
     }
     return 0;
 
