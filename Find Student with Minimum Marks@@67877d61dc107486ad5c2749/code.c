@@ -16,12 +16,12 @@ int main(){
     }
 
     float minimumMarks=students[0].marks;
-    for(int i=0;i<n;i++){
+    for(int i=1;i<n;i++){
         if(students[i].marks<minimumMarks){
             minimumMarks=students[i].marks;
         }
     }
-    for(int i=0;i<n;i++){
+    for(int i=1;i<n;i++){
     printf("Student with Minimum Marks: Roll Number: %d, Name: %s, Marks: %f\n",students[i].rollNumber,students[i].name,students[i].marks);
     }
     return 0;
