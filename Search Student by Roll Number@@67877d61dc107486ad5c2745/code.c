@@ -20,7 +20,7 @@ int main(){
     int found=0;
     for(int i=0;i<n;i++){
         if(students[i].rollNumber==searchRoll){
-            printf("Roll Number: %d,Name: %s, Marks: %.2f\n",students[i].rollNumber,students[i].name,students[i].marks);
+            printf("Roll Number: %d, Name: %s, Marks: %.2f\n",students[i].rollNumber,students[i].name,students[i].marks);
             found=1;
             break;
         }
