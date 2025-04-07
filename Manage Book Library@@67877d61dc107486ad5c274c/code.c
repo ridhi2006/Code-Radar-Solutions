@@ -12,19 +12,20 @@ int main(){
     struct Book book[n];
 
     for(int i=0;i<n;i++){
-        scanf("%s %s %f\n",&book[i].title,&book[i].author,&book[i].price);
+        scanf("%s %s %f",&book[i].title,&book[i].author,&book[i].price);
     }
 
     float threshold;
-    scanf("%f\n",&threshold);
-
+    scanf("%f",&threshold);
+    int found=0;
+    printf("Books above price %.2f:\n",threshold);
     for(int i=0;i<n;i++){
         if(threshold<book[i].price){
             threshold=book[i].price;
+            found=1;
         }
     }
     for(int i=0;i<n;i++){
-        printf("Books above price %.2f:\n",threshold);
         printf("Title: %s, Author: %s, Price: %.2f\n",book[i].title,book[i].author,book[i].price);
     }
     return 0;
