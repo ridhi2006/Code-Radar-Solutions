@@ -21,7 +21,7 @@ int main(){
         perimeter=2*(rectangle[i].length+rectangle[i].breadth);
         count++;
     }
-    printf("Rectangle %d:   Area = %.2f , Perimeter = %.2f",count,area,perimeter);
+    printf("Rectangle %d: Area = %.2f, Perimeter = %.2f",count,area,perimeter);
     return 0;
 
     
