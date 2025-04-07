@@ -25,5 +25,5 @@ int main(){
         if(students[i].marks==minimumMarks){
     printf("Student with Minimum Marks: Roll Number: %d, Name: %s, Marks: %.2f\n",students[i].rollNumber,students[i].name,students[i].marks);
     }}
-    return 0;}
+    return 0;
 }
