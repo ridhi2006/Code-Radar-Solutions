@@ -18,6 +18,8 @@ int main(){
 
     for(int i=0;i<n;i++){
         if(students[i].marks>students[i+1].marks){
+            students[i].name=students[i+1].name;
+            students[i].rollNumber=students[i+1].rollNumber;
             students[i].marks=students[i+1].marks;
         }
     }
