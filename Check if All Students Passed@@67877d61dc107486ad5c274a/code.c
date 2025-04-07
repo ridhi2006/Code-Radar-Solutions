@@ -18,9 +18,10 @@ int main(){
     float threshold=50.00;
     int found=0;
     for(int i=0;i<n;i++){
-        if(students[i].marks>threshold){
+        if(students[i].marks>=threshold){
             printf("All Passed");
             found=1;
+            break;
         }
     }
     if(!found){
