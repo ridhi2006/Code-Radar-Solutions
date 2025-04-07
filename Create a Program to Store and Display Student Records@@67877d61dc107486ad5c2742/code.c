@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<string.h>
-struct Students{
+struct Student{
     int rollNumber;
     char name[100];
     float marks;
