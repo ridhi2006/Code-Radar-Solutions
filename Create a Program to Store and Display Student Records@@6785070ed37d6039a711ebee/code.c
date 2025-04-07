@@ -6,10 +6,10 @@ struct Student{
     float marks;
 };
 int main(){
-    int N;
-    scanf("%d\n",&N);
+    int n;
+    scanf("%d\n",&n);
     
-    struct Student students[N];
+    struct Student students[n];
 
     for(int i=0;i<n;i++){
         scanf("%d %s %f",&students[i].rollNumber,&students[i].name,&students[i].marks);
