@@ -15,8 +15,8 @@ int main(){
         scanf("%s %s %d\n",&book[i].title,&book[i].author,&book[i].price);
     }
 
-    int threshold;
-    scanf("%d\n",&threshold);
+    float threshold;
+    scanf("%f\n",&threshold);
 
     for(int i=0;i<n;i++){
         if(threshold>=book[i].price){
@@ -24,7 +24,7 @@ int main(){
         }
     }
     for(int i=0;i<n;i++){
-        printf("Books above price :%d\n",threshold);
+        printf("Books above price %f:\n",threshold);
         printf("Title: %s, Author: %s, Price: %d\n",book[i].title,book[i].author,book[i].price);
     }
     return 0;
