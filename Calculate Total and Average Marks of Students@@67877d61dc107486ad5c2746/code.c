@@ -14,7 +14,7 @@ int main(){
         scanf("%d %s %f\n",&students[i].rollNumber,&students[i].name,&students[i].marks);
         totalMarks+=students[i].marks;
     }
-    float totalMarks=0;
+    float totalMarks;
 
     float average=totalMarks/n;
 
