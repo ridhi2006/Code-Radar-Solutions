@@ -16,10 +16,10 @@ int main(){
     }
 
     float threshold=50.00;
-    int found=0;
+    int found=1;
     for(int i=0;i<n;i++){
-        if(students[i].marks>=threshold){
-            found=1;
+        if(students[i].marks<threshold){
+            found=0;
             break;
         }
     }
