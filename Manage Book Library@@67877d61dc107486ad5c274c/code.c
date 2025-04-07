@@ -24,11 +24,8 @@ int main(){
             threshold=book[i].price;
             found=1;
             break;
-        }
-    }
-    for(int i=0;i<n;i++){
         printf("Title: %s, Author: %s, Price: %.2f\n",book[i].title,book[i].author,book[i].price);
-    }
+    }}
     return 0;
 }
 
