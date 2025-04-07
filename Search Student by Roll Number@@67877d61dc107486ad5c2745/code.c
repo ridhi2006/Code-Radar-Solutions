@@ -7,7 +7,7 @@ struct Student{
 };
 int main(){
     int n;
-    scanf("%d\n",&n);
+    scanf("%d",&n);
 
     struct Student students[n];
 
