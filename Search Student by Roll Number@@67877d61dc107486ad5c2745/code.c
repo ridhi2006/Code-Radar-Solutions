@@ -16,9 +16,7 @@ int main(){
     }
 
     int searchRoll;
-    for(int i=0;i<n;i++){
-        scanf("%d",&students[i].rollNumber);
-    }
+    scanf("%d",&students[i].rollNumber);
     int found=0;
     for(int i=0;i<n;i++){
         if(students[i].rollNumber==searchRoll){
