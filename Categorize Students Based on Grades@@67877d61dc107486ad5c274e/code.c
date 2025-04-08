@@ -28,7 +28,7 @@ int main(){
     
     students[i].grade=calculateGrade(marks);}
     for(int i=0;i<n;i++){
-        printf("Roll Number: %d,Name: %s,Grade: %c\n".students[i].rollNumber,students[i].name,students[i].grade);
+        printf("Roll Number: %d,Name: %s,Grade: %c\n",students[i].rollNumber,students[i].name,students[i].grade);
     }
     return 0;
 }
