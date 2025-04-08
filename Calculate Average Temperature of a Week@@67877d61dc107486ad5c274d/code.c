@@ -10,5 +10,15 @@ int main(){
 
     struct Day days[n];
 
-    float average=()/n;
+    float totalTemp=0.00;
+
+    for(int i=0;i<n;i++){
+        scanf("%s %d\n",&days[i].dayName,&days[i].temp);
+        totalTemp+=days[i].temp;
+    }
+
+    float average=(totalTemp)/n;
+
+    printf("Average Temperature: %f\n",average);
+    return 0;
 }
