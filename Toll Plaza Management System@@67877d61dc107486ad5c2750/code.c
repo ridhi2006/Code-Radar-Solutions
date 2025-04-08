@@ -3,7 +3,7 @@
 struct Vehicle{
     char vehicleNumber[100];
     char vehicleType[100];
-    int toll;
+    float toll;
 };
 int main(){
     int n;
