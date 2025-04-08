@@ -16,7 +16,7 @@ int main(){
     }
 
     for(int i=0;i<n;i++){
-        printf("%ss: %.2f, ",vehicles[i].vehicleType,vehicles[i].toll);
+        printf("%ss: %.2f ",vehicles[i].vehicleType,vehicles[i].toll);
     }
     return 0;
 }
