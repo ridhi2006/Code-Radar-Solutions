@@ -23,8 +23,8 @@ int main(){
     struct Employee employees[n];
 
     for(int i=0;i<n;i++){
-        scanf("%d %s %f",&employees[i].employeeId,&employees[i].name,&employees[i].salary);
-        employees[i].bonus=calculateSalary(salary,bonus);
+        scanf("%d %s %d",&employees[i].employeeId,&employees[i].name,&employees[i].salary);
+        employees[i].bonus=calculateSalary(employees[i].salary);
     }
 
     for(int i=0;i<n;i++){
