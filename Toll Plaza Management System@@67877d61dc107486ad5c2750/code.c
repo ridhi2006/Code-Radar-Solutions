@@ -32,6 +32,6 @@ int main(){
 
     }
 
-   printf("Cars: %.2f, Trucks: %.2f, Bikes:%.2f",car,truck,bike);
+   printf("Cars: %.2f, Trucks: %.2f, Bikes: %.2f",car,truck,bike);
     return 0;
 }
