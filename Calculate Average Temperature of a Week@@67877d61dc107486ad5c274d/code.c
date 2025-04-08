@@ -13,7 +13,7 @@ int main(){
     float totalTemp=0.0;
 
     for(int i=0;i<n;i++){
-        scanf("%s %d",&days[i].dayName,&days[i].temp);
+        scanf("%s %d",days[i].dayName,&days[i].temp);
         totalTemp+=days[i].temp;
     }
 
