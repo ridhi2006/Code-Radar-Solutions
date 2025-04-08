@@ -6,14 +6,13 @@ struct Employee{
     int salary;
     float bonus;
 };
-float calculateSalary(int salary,float bonus){
+float calculateSalary(int salary){
     if(salary<50000){
-        bonus=0.1*salary;
-        return bonus;
-    }
+        return 0.1*salary;
+            }
     else{
-        bonus=0.05*salary;
-        return bonus;
+        return 0.05*salary;
+
     }
 }
 int main(){
