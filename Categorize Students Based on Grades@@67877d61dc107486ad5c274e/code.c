@@ -10,7 +10,7 @@ char calculateGrade(float marks){
     if(marks>=85){
         return 'A';
     }
-    else if(marks>=70 && marks<=84){
+    else if(marks>=70 && marks<84){
         return 'B';
     }
     else{
