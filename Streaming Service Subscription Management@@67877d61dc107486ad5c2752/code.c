@@ -21,7 +21,7 @@ int main(){
     int standardCount=0;
 
     for(int i=0;i<n;i++){
-        scanf("%s %s %d",&subscribe[i].username,&subscribe[i].subscription,&subscribe[i].subscriptionCost);
+        scanf("%s %s %f",&subscribe[i].username,&subscribe[i].subscription,&subscribe[i].subscriptionCost);
     }
 
     for(int i=0;i<n;i++){
