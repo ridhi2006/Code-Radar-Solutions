@@ -5,10 +5,9 @@ struct Day{
     int temp;
 };
 int main(){
-    int n;
-    scanf("%d",&n);
+    int n=7;
 
-    struct Day days[n];
+    struct Day days[7];
 
     float totalTemp=0.0;
 
