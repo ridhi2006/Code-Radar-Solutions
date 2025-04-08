@@ -5,7 +5,7 @@ struct Subscription{
     char username[100];
     char subscription[100];
     float subscriptionCost;
-}
+};
 
 int main(){
     int n;
@@ -29,7 +29,7 @@ int main(){
             basic+=subscribe[i].subscriptionCost;
             basicCount++;
         }
-        else if(strcmp(subscribe[i],subscription,"Premium")==0){
+        else if(strcmp(subscribe[i].subscription,"Premium")==0){
             premium+=subscribe[i].subscriptionCost;
             premiumCount++;
         }
