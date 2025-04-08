@@ -30,7 +30,7 @@ int main(){
             vipTotal+=movies[i].price;
         }
     }
-        printf("Standard: %f, Premium: %f, VIP: %f",standardTotal,premiumTotal,vipTotal);
+        printf("Standard: %.2f, Premium: %.2f, VIP: %.2f",standardTotal,premiumTotal,vipTotal);
         return 0;
 
 }
