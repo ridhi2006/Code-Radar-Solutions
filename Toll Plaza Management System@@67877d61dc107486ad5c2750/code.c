@@ -11,9 +11,9 @@ int main(){
 
     struct Vehicle vehicles[n];
 
-    int car=0;
-    int truck=0;
-    int bike=0;
+    float car=0;
+    float truck=0;
+    float bike=0;
 
     for(int i=0;i<n;i++){
         scanf("%s %s %f",&vehicles[i].vehicleNumber,&vehicles[i].vehicleType,&vehicles[i].toll);
