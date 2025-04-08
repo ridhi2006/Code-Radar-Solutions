@@ -39,7 +39,8 @@ int main(){
         }
     }
 
-    printf("Basic: %d Users, Revenue: %.2f; Standard: %d Users,",basicCount,basic,standardCount);
-    printf("Revenue: %.2f; Premium: %d Users, Revenue: %.2f",standard,premium,premiumCount);
+   printf("Basic: %d Users, Revenue: %.2f; ", basicCount, basic);
+    printf("Standard: %d Users, Revenue: %.2f; ", standardCount, standard);
+    printf("Premium: %d Users, Revenue: %.2f", premiumCount, premium);
     return 0;
 }
