@@ -14,7 +14,7 @@ int main(){
 
     for(int i=0;i<n;i++){
         scanf("%s %d",days[i].dayName,&days[i].temp);
-        totalTemp+=days[i].temp;
+        totalTemp += days[i].temp;
     }
 
     float average=totalTemp/n;
