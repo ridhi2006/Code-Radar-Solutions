@@ -12,7 +12,7 @@ int main(){
     struct Vehicle vehicles[n];
 
     for(int i=0;i<n;i++){
-        scanf("%s %s %d",&vehicles[i].vehicleNumber,&vehicles[i].vehicleType,&vehicles[i].toll);
+        scanf("%s %s %f",&vehicles[i].vehicleNumber,&vehicles[i].vehicleType,&vehicles[i].toll);
     }
 
     for(int i=0;i<n;i++){
