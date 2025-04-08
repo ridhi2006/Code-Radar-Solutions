@@ -26,7 +26,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d %s %f\n",&students[i].rollNumber,&students[i].name,&students[i].marks);
     
-    students[i].grade=calculateGrade(float marks);}
+    students[i].grade=calculateGrade(marks);}
     for(int i=0;i<n;i++){
         printf("Roll Number: %d,Name: %s,Grade: %c\n".students[i].rollNumber,students[i].name,students[i].grade);
     }
