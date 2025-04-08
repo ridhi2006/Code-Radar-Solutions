@@ -23,7 +23,7 @@ int main(){
         if(strcmp(movies[i].type,"Standard")==0){
             standardTotal+=movies[i].price;
         }
-        else if(strcmp(movies[i].type,"Standard")==0){
+        else if(strcmp(movies[i].type,"Premium")==0){
             premiumTotal+=movies[i].price;
         }
         else{
