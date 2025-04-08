@@ -16,7 +16,7 @@ int main(){
     float vipTotal=0;
 
     for(int i=0;i<n;i++){
-        scanf("%s %s %d",&movies[i].movie,&movies[i].type,&mmovies[i].price);
+        scanf("%s %s %d",&movies[i].movie,&movies[i].type,&movies[i].price);
     }
 
     for(int i=0;i<n;i++){
