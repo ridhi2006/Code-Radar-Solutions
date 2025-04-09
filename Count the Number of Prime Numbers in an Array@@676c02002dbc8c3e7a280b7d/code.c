@@ -10,7 +10,7 @@ int main(){
     int isPrime=1;
     for(int i=2;i<arr[i];i++){
         if(arr[i]==0){
-            isPrime=1;
+            isPrime=0;
             count++;
             break;
 
