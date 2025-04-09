@@ -1,30 +1,32 @@
 #include <stdio.h>
 int main(){
     int a,b;
-    scanf("%d %d",&a,&b);
-    char ch1;
-    scanf("%c",&ch1);
-        switch(ch1){
-            case '+':
+    char ch;
+    scanf("%d %d %c",&a,&b,&ch);
+    switch(ch){
+        case '+':
             printf("%d",a+b);
             break;
-            case '-':
+        case '-':
             printf("%d",a-b);
             break;
-            case '*'
+        case '*':
             printf("%d",a*b);
             break;
-            case '/':
-            if(b!=0){
-            printf("%d\n",a/b);}
-            else{
-                printf("Division by zero is not allowed");
+        case '/':
+            if(b==0){
+                printf("error\n");
             }
+                else{
+                    printf("%.0f\n",(float)a/b);
+                }
             break;
-            default:
-            printf("Invalid operator");
+        default:
+            printf("error");
             break;
-        return 0;}
+    }
+        return 0;
+}
 
     
 
