@@ -9,7 +9,7 @@ int main(){
     int count=0;
     int isPrime=1;
     for(int i=2;i<arr[i];i++){
-        if(arr[i]==0){
+        if(arr[i]%i==0){
             isPrime=0;
             count++;
             break;
