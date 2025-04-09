@@ -8,7 +8,7 @@ int reverseWords(char string[],int a,r=0,remainder){
 
     }
 
-}
+
 int main(){
     char string[100];
     fgets(string,sizeof(string),stdin);
