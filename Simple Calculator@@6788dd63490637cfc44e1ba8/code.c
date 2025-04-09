@@ -25,7 +25,7 @@ int main(){
             printf("error");
             break;
     }
-        return 0;
+    return 0;
 }
 
     
