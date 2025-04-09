@@ -23,4 +23,24 @@ int main() {
     }
 
     int secondMin = INT_MAX;
-    int found = 0;  // flag to check if a different element
+    int found = 0;  // flag to check if a different element exists
+
+    for (int i = 0; i < n; i++) {
+        if (arr[i] != min) {
+            found = 1;
+            if (arr[i] < secondMin) {
+                secondMin = arr[i];
+            }
+        }
+    }
+
+    if (!found) {
+        // All elements are the same
+        printf("-1\n");
+    } else {
+        printf("%d\n", secondMin);
+    }
+
+    return 0;
+}
+
