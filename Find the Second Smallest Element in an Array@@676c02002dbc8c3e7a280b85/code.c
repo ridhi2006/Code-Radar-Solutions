@@ -1,29 +1,26 @@
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+#include <limits.h>
+
+int main() {
     int n;
-    scanf("%d",&n);
-    int arr[n];
-    for(int i=0;i<n;i++){
-        scanf("%d",&arr[i]);
-    }
-    if(n<2){
-        printf("-1");
+    scanf("%d", &n);
+
+    if (n < 2) {
+        printf("-1\n");
         return 0;
     }
-    int min=arr[0];
-    for(int i=1;i<n;i++){
-        if(arr[i]<min){
-            min=arr[i];
-        }
 
+    int arr[n];
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
     }
-    int secondMin=arr[0];
-    for(int i=1;i<n;i++){
-        if(arr[i]<secondMin && arr[i]!=min){
-            secondMin=arr[i];
+
+    int min = INT_MAX;
+    for (int i = 0; i < n; i++) {
+        if (arr[i] < min) {
+            min = arr[i];
         }
     }
-    
-    printf("%d ",secondMin);
-    return 0;
-}
+
+    int secondMin = INT_MAX;
+    int found = 0;  // flag to check if a different element
