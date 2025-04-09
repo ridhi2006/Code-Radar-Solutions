@@ -1,5 +1,5 @@
 #include<stdio.h>
-int reverseWords(char string[],int a,int r,remainder){
+int reverseWords(char string[],int a,int r,int remainder){
     int r=0;
     while(string[i]!='\0'){
         remainder=a%10;
