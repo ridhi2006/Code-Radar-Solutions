@@ -22,7 +22,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     sortArray(arr,n);
-    int minDifference=-1;
+    int minDifference=INT_MAX;
     int num1;
     int num2;
     for(int i=0;i<n-1;i++){
