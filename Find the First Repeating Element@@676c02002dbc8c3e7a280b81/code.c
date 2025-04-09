@@ -9,13 +9,14 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    int freq[1001] = {0};  // assuming values are 0 to 1000
+    int freq[1001] = {0};  // Adjust size based on input constraints
 
     for (int i = 0; i < n; i++) {
         freq[arr[i]]++;
     }
 
-    int maxFreq = 0, mostRepeating;
+    int maxFreq = 1, mostRepeating = -1;
+
     for (int i = 0; i < 1001; i++) {
         if (freq[i] > maxFreq) {
             maxFreq = freq[i];
@@ -26,4 +27,5 @@ int main() {
     printf("%d\n", mostRepeating);
     return 0;
 }
+
 
