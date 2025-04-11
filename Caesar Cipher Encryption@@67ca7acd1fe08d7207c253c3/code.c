@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include<string.h>
-
-int caesarCipher(char str[],int shift){
+void caesarCipher(char str[],int shift){
     for(int i=0;str[i]!='\0';i++){
         char ch=str[i];
 
