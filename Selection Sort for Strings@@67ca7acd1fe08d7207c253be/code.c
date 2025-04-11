@@ -11,7 +11,7 @@ void selectionSort(char arr[][100],int n){
     for(int i=0;i<n-1;i++){
         minIndex=i;
         for(int j=i+1;j<n;j++){
-            if(strcmp(arr[j],arr[minIndex])<0){
+            if(strcmp(arr[j],arr[minIndex])<0){    //a comes before b
                 minIndex=j;
             }}
                  if(minIndex != i) {
