@@ -6,7 +6,7 @@ void swap(char str1[],char str2[]){
     strcpy(str1,str2);
     strcpy(str2,temp);
 }
-void selectionSort(char arr[],int n){
+void selectionSort(char arr[][100],int n){
     int minIndex;
     for(int i=0;i<n-1;i++){
         minIndex=i;
@@ -19,7 +19,7 @@ void selectionSort(char arr[],int n){
             }
         }
     }
-void printArray(int arr[][100],int n){
+void printArray(char arr[][100],int n){
     for(int i=0;i<n;i++){
         printf("%s\n ",arr[i]);
     }
