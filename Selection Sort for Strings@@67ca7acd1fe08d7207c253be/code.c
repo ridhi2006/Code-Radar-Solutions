@@ -14,13 +14,13 @@ void selectionSort(char arr[][100],int n){
             if(strcmp(arr[j],arr[minIndex])<0){
                 minIndex=j;
             }}
-                 if (minIndex != i) {
+                 if(minIndex != i) {
             swap(arr[i], arr[minIndex]);
             }
         }
     }
 void printArray(char arr[][100],int n){
     for(int i=0;i<n;i++){
-        printf("%s\n ",arr[i]);
+        printf("%s\n",arr[i]);
     }
 }
