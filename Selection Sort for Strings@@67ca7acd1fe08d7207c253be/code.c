@@ -21,5 +21,5 @@ void selectionSort(char arr[],int n){
 void printArray(int arr[][100],int n){
     for(int i=0;i<n;i++){
         printf("%s\n ",arr[i]);
-    }+
+    }
 }
